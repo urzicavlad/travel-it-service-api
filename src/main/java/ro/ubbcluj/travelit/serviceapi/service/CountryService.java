@@ -8,4 +8,7 @@ public interface CountryService {
 
     List<Country> getAllCountries();
 
+    Country getCountryById(Long id);
+
+    String populateDatabase();
 }

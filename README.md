@@ -21,10 +21,18 @@ OpenJDK 64-Bit Server VM (build 14+36-1461, mixed mode, sharing)
 ```
 5. run ```mvnw clean install```
 6. run ```java -jar target\travel-it-service-api-0.0.1-SNAPSHOT.jar```
-7. go to http://localhost:8080/ping 
+7. go to http://localhost:8080/api/ping 
 Output:
 ```
 Pong
+```
+
+8. Short documentation
+```
+GET /api/ping -> respond with pong 
+GET /api/countries -> list all the data from db
+GET /api/countries/{id} -> get a specific country
+GET /api/populate -> populate database from data.json file
 ```
 
 

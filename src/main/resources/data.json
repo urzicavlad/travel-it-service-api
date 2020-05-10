@@ -12,6 +12,11 @@
             "name": "Plaza de Mayo",
             "address": "Av. Hipólito Yrigoyen s/n, C1087 CABA, Argentina",
             "description": "Plaza de Mayo este un pătrat al orașului și principalul site de fundație din Buenos Aires, Argentina. Acesta a fost format în 1884 după demolarea clădirii Recova, unificând Plaza Mayor și Plaza de Armas, de atunci cunoscute sub numele de Plaza de la Victoria, respectiv Plaza 25 de Mayo."
+          },
+          {
+            "name": "Plaza de Mayo2",
+            "address": "Av. Hipólito Yrigoyen s/n, C1087 CABA, Argentina2",
+            "description": "2Plaza de Mayo este un pătrat al orașului și principalul site de fundație din Buenos Aires, Argentina. Acesta a fost format în 1884 după demolarea clădirii Recova, unificând Plaza Mayor și Plaza de Armas, de atunci cunoscute sub numele de Plaza de la Victoria, respectiv Plaza 25 de Mayo."
           }
         ]
       }

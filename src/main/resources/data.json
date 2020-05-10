@@ -1,0 +1,1238 @@
+[
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Buenos Aires",
+        "description": "Buenos Aires sau Ciudad de Buenos Aires este capitala si cel mai mare oraș din Argentina și a doua cea mai mare zonă metropolitană din America de Sud, după Sao Paulo. Este localizat pe malul vestic al estuarului Rio de la Plata, pe coasta de sud-est a continentului Sud-American.",
+        "recommendations": [
+          {
+            "name": "Plaza de Mayo",
+            "address": "Av. Hipólito Yrigoyen s/n, C1087 CABA, Argentina",
+            "description": "Plaza de Mayo este un pătrat al orașului și principalul site de fundație din Buenos Aires, Argentina. Acesta a fost format în 1884 după demolarea clădirii Recova, unificând Plaza Mayor și Plaza de Armas, de atunci cunoscute sub numele de Plaza de la Victoria, respectiv Plaza 25 de Mayo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Sydney",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Melbourne",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Vienna",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Innsbruck",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bahamas",
+    "code": "BS",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Nassau",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "San Andros",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Brussels",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Veurne",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Sao Paulo",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Rio de Janeiro",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Toronto",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Vancouver",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Santiago",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Viña del Mar",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Shanghai",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Beijing",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Croatia",
+    "code": "HR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Dubrovnik",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Zadar",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Havana",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Santiago",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "code": "CY",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Nicosia",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Larnaca",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Prague",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Tábor",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Denmark",
+    "code": "DK",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Copenhagen",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Aarhus",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Santo Domingo",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Bella Vista",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Cairo",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Giza",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Finland",
+    "code": "FI",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Helsinki",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Rovaniemi",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Paris",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "French Polynesia",
+    "code": "PF",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Papeete",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Berlin",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Hamburg",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Athens",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Thessaloniki",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Budapest",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "code": "IS",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Reykjavik",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Mumbai",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "New Delhi",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Bali",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Jakarta",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Rome",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Milan",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Tokyo",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Amman",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Petra",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Malta",
+    "code": "MT",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Valletta",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Mdina",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Cancún",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Ciudad de México",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Norway",
+    "code": "NO",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Oslo",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Tromsø",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Lima",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Lisabona",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Porto",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Bucharest",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Cluj-Napoca",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Russian Federation",
+    "code": "RU",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Moscow",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "St Petersburg",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Singapore",
+    "code": "SG",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Singapore",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "code": "SI",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Ljubljana",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Bled",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Barcelona",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Madrid",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Sevilla",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Bangkok",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Phuket",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Istanbul",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Ankara",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Antalya",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "Kiev",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "London",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Edinburgh",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Manchester",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Liverpool",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Birmingham",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "cities": [
+      {
+        "name": "New York",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "San Francisco",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Chicago",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      },
+      {
+        "name": "Whashington D.C.",
+        "description": " ",
+        "recommendations": [
+          {
+            "name": " ",
+            "address": " ",
+            "description": " "
+          }
+        ]
+      }
+    ]
+  }
+]

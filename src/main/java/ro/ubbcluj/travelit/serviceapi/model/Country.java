@@ -1,12 +1,14 @@
 package ro.ubbcluj.travelit.serviceapi.model;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import javax.persistence.*;
 import java.util.Set;
 
 @Data
 @Entity
+@Accessors(chain = true)
 public class Country {
 
     @Id
@@ -18,7 +20,7 @@ public class Country {
     private String code;
     @Column(length = 15000)
     private String flag;
-    @OneToMany(cascade=CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL)
     private Set<City> cities;
 
 }

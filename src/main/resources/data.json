@@ -3,6 +3,8 @@
     "name": "Argentina",
     "code": "AR",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Argentina, oficial Republica Argentina (în spaniolă República Argentina) este o republică federală din America de Sud. Se învecinează la nord cu Bolivia și Paraguay; la nord-est cu Brazilia, la est cu Uruguay și Oceanul Atlantic; la sud cu Oceanul Atlantic și la vest cu Chile. Capitala și cel mai mare oraș din țară este Buenos Aires.",
+    "image": "https://studyabroad.sit.edu/wp-content/themes/ssa-sit-2019/assets/images/program-hero/ARH-hero.jpg",
     "cities": [
       {
         "name": "Buenos Aires",

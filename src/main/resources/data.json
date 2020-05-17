@@ -29,23 +29,23 @@
     "cities": [
       {
         "name": "Sydney",
-        "description": " ",
+        "description": "Sydney este capitala statului Noul Wales de Sud, Australia. De asemenea, orașul este cel mai mare din Australia, cu o populație de 4.200.000 de locuitori.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Sydney Opera House",
+            "address": "Bennelong Point, Sydney NSW 2000, Australia",
+            "description": "Sydney Opera House, localizată în vârful unui promontoriu ce străjuiește portul orașului Sydney, Australia, este un proiect, design și realizare a arhitectului danez Jørn Utzon. Este considerată simbolul unui oraș, Sydney, al unei țări și al unui continent, Australia, mii de turiști total neinteresați de operă vizitând-o săptămânal doar pentru a o admira."
           }
         ]
       },
       {
         "name": "Melbourne",
-        "description": " ",
+        "description": "Melbourne este al doilea oraș ca mărime din Australia și este capitala statului Victoria. Deși nu este cea mai renumită destinație turistică din Australia, Melbourne este un centru modern, multicultural și vibrant, cu nivelul de trai foarte ridicat, oferind diverse atracții și activități tot anul.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Federation Square",
+            "address": "Corner of Flinders and Swanston Street, Melbourne, Victoria, 3000 ",
+            "description": "Federation Square este un loc pentru arte, cultură și evenimente publice de la marginea districtului central de afaceri din Melbourne. Aceasta acoperă o suprafață de 3,2 ha (7,9 acri) la intersecția dintre Flinders și Swanston Streets, construită deasupra liniilor feroviare aglomerate și peste drum de gara Flinders Street. "
           }
         ]
       }
@@ -58,23 +58,23 @@
     "cities": [
       {
         "name": "Vienna",
-        "description": " ",
+        "description": "Viena este capitala Austriei. Orașul este situat în extremitatea răsăriteană a acestei republici federale, în landul Viena, și este traversat de Dunăre. Regiunea autonomă Viena este, cu cei aproape două milioane de locuitori ai săi, ce reprezintă un sfert din populația totală a Austriei, al zecelea oraș ca mărime din cadrul Uniunii Europene. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Schönbrunn",
+            "address": "Schönbrunner Schloßstraße 47, 1130 Wien, Austria",
+            "description": "Palatul Schönbrunn a servit din secolul al XVIII-lea până în 1918 drept reședință de vară a Casei de Habsburg. 45 din cele 141 de camere ale castelului sunt deschise publicului larg spre vizitare. Printre acestea se numără și camera lui Napoleon Bonaparte (Împăratul francez și-a avut reședința aici din 1805 până în 1809), cabinetul chinezesc, marea galerie, etc. "
           }
         ]
       },
       {
         "name": "Innsbruck",
-        "description": " ",
+        "description": "Innsbruck (populație ~140.000) este un oraș din sud-vestul Austriei și capitala provinciei Tirol (populație ~650.000). Situat pe râul Inn, este un centru celebru pentru sporturile de iarnă. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Palatul Imperial Hofburg",
+            "address": "Rennweg 1, 6020 Innsbruck, Austria ",
+            "description": "Palatul Imperial Hofburg: capitala Alpilor – a fost pe vremuri resedinta suveranilor tirolezi. Palatul a fost construit de Arhiducele Siegmund in stil gotic tarziu, in jurul anului 1460. "
           }
         ]
       }
@@ -87,23 +87,23 @@
     "cities": [
       {
         "name": "Nassau",
-        "description": " ",
+        "description": "Nassau este capitala, cel mai mare oraș, și centrul comercial din Bahamas. Orașul are o populație de 248.948 (recensământul din 2010). Orașul se află pe insula New Providence, și funcționează ca un district de afaceri. Nassau a fost, în trecut, un centru comercial al pirateriei. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Blue Lagoon Island",
+            "address": "Nassau New Providence Island ",
+            "description": "Cunoscută și sub numele de Salt Cay, Blue Lagoon Island este o insulă privată situată la aproximativ cinci kilometri de Nassau, care oferă o gamă largă de sporturi nautice, precum și întâlniri de aproape cu delfini și lei de mare. Aceasta este una dintre cele mai populare călătorii laterale din Nassau. "
           }
         ]
       },
       {
         "name": "San Andros",
-        "description": " ",
+        "description": "Insula Andros este un arhipelag din Bahamas, cea mai mare dintre Insulele Bahamiene. Considerată din punct de vedere politic o singură insulă, Andros în total are o suprafață mai mare decât toate celelalte 700 de insule Bahamiene combinate. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Small Hope Bay Lodge",
+            "address": "Fresh Creek, 00000 Andros",
+            "description": "In apropiere de Fresh Creek a fost fondată de Dick Birch în 1960. Ea continuă să funcționeze ca stațiune de imersiune sub proprietatea și conducerea copiilor lui Dick Birch. "
           }
         ]
       }
@@ -115,24 +115,24 @@
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
     "cities": [
       {
-        "name": "Brussels",
-        "description": " ",
+        "name": "Bruxelles",
+        "description": "Bruxelles este capitala Belgiei, sediul guvernului și parlamentului federal, precum și a mai multor entități federale: Regiunea Capitalei Bruxelles, Regiunea Flandra și comunitățile franceză și flamandă. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeele Regale de Arte Frumoase din Belgia ",
+            "address": "Rue de la Regence 3, 1000 Bruxelles ",
+            "description": "Muzeele Regale de Arte Frumoase din Belgia este un grup de muzee de arta din Bruxelles cu o colectie pretioasa de peste 20 000 de opere de arta. Majoritatea muzeelor au sediul in proximitatea Pietei Regale din Bruxelles, astfel puteti alege sa vizitati un singur muzeu, mai multe sau chiar pe toate, daca sunteti interesat sa admirati cele mai importante opere de arta din fiecare institurie muzeala. "
           }
         ]
       },
       {
         "name": "Veurne",
-        "description": " ",
+        "description": "Veurne (franceză Furnes) este un oraș neerlandofon situat în provincia Flandra de Vest, regiunea Flandra din Belgia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Yser Tower ",
+            "address": "IJzerdijk 49, 8600 Diksmuide, Belgia",
+            "description": "Turnul Yser este un memorial de-a lungul râului belgian Yser din Diksmuide. Este un monument al păcii și comemorează soldații uciși pe frontul Yser în timpul Primului Război Mondial. "
           }
         ]
       }
@@ -145,23 +145,23 @@
     "cities": [
       {
         "name": "Sao Paulo",
-        "description": " ",
+        "description": "São Paulo este un municipiu brazilian, capitala statului cu același nume și principalul centru financiar, economic și comercial al Americii Latine. Este cel mai mare oraș din Brazilia, din America de Sud și din emisfera sudică. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Parque da Independància și Muzeul Paulista ",
+            "address": "Parque da Independencia, Ipiranga, São Paulo ",
+            "description": "În cartierul Ipiranga din São Paulo, străbătut de pârâul alături de care a fost proclamată independența Braziliei de către Printul Pedro, Parcul Independenței comemorează evenimentul din 1822. Cu vedere la grădinile formale de trandafiri, topieri și fântâni inspirate de cei de la Versailles, este Muzeul Paulista, mai cunoscut sub numele de Museu do Ipiranga. Arhitectul său italian, Tommaso Gaudenzio Bezzi, a creat un design eclectic modelat pe neoclasicismul italian, care aminteste de palatele renascentiste. În interior sunt colecții mari de costume, arte decorative, picturi și mobilier din perioada imperială. "
           }
         ]
       },
       {
         "name": "Rio de Janeiro",
-        "description": " ",
+        "description": "Rio de Janeiro este un oraș din sud-estul Braziliei, situat în statul care poartă același nume. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Cartierul Lapa ",
+            "address": "Santa Teresa, Rio de Janeiro,Brazilia",
+            "description": "Aflat în centrul oraşului, cartierul Lapa este renumit pentru viaţa sa de noapte animată, aici fiind numeroase baruri şi restaurante frecventate încă din anii ‘50 de artişti şi intelectuali. "
           }
         ]
       }
@@ -174,23 +174,23 @@
     "cities": [
       {
         "name": "Toronto",
-        "description": " ",
+        "description": "Toronto este cel mai mare oraș din Canada și capitala provinciei Ontario.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Turnul CN",
+            "address": "290 Bremner Boulevard,Toronto, Ontario, M5V 3L9 ",
+            "description": "Celebrul reper Toronto, turnul CN de 553 de metri, este unul dintre orașele care trebuie să vadă atracții și, de asemenea, cel mai imposibil de ratat. Se ridică deasupra centrului, structura poate fi văzută de aproape oriunde în oraș. "
           }
         ]
       },
       {
         "name": "Vancouver",
-        "description": " ",
+        "description": "Vancouver este cel mai mare oraș din provincia Columbia Britanică în Canada, fără însă a fi capitala provinciei, care este Victoria.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Stanley Park ",
+            "address": "Vancouver, BC V6G 1Z4, Canada",
+            "description": "Stanley Park este o peninsulă luxuriantă de copaci uriași adiacenți Downtown Vancouver. Dacă doriți să ieșiți și să vă bucurați de o anumită natură, acesta este cel mai bun loc de vizitat în Vancouver. Un traseu pavaj maritim încercuiește spațiul verde și este un loc minunat pentru a explora pe jos sau cu bicicleta. "
           }
         ]
       }
@@ -203,23 +203,23 @@
     "cities": [
       {
         "name": "Santiago",
-        "description": " ",
+        "description": "Santiago este capitala statului Chile și cel mai mare oraș. Este situat în Valea Centrală a țării iar din punct de vedere administrativ face parte din Regiunea Metropolitană Santiago.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Casa Colorada ",
+            "address": "Merced 860, Santiago Chile ",
+            "description": "Este o casă colonială, construită în 1769. Găzduieşte în cinci dintre camere Museo de Santiago. "
           }
         ]
       },
       {
         "name": "Viña del Mar",
-        "description": " ",
+        "description": "Viña del Mar este un oraș și comună din provincia Valparaíso, regiunea Valparaíso, Chile, cu o populație de 324.836 locuitori și o suprafață de 121,6 km2. Orașul de pe coasta Pacificului este un loc de agrement pentru locuitorii din regiune. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "La Quinta Vergara",
+            "address": "Viña del Mar, Valparaíso, Chile ",
+            "description": "O grădină frumoasă cu copaci din China și Canada, de exemplu. În același loc, Festivalul de Viña are loc în fiecare an în ultima săptămână a lunii februarie. "
           }
         ]
       }
@@ -232,23 +232,23 @@
     "cities": [
       {
         "name": "Shanghai",
-        "description": " ",
+        "description": "Shanghai este cel mai mare oraș din China și un centru important comercial în Asia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Grădina Yu",
+            "address": "No. 137, Anren Street, Huangpu District",
+            "description": "Este o grădină tradițională chineză și una dintre atracțiile obligatorii în Shanghai. Aceasta datează din dinastia Ming (1368 – 1644), de când era deținută de un ofițer guvernamental pe nume Pan Yunduan. "
           }
         ]
       },
       {
         "name": "Beijing",
-        "description": " ",
+        "description": "Beijing este capitala Republicii Populare Chineze și are peste 17 milioane de locuitori, fiind totodată una dintre cele mai poluate metropole.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Orașul Interzis",
+            "address": "Rezultate Căutare, 4 Jingshan Front St, Dongcheng, Beijing, China, 100886 ",
+            "description": "Destul de aproape de Piața Tiananmen vei da de un alt loc pe care trebuie să îl vizitezi în Beijing, Orașul Interzis. Aici vei găsi Palatul Imperial, care avea să fie casa membrilor dinastiei Ming și, mai târziu, a membrilor dinastiei Quing, care au condus Imperiul Chinez timp de aproape o jumătate de mileniu până la mișcarea revoluționară ce a avut loc la începutul secolului XX. "
           }
         ]
       }
@@ -261,23 +261,23 @@
     "cities": [
       {
         "name": "Dubrovnik",
-        "description": " ",
+        "description": "Dubrovnik este un oraș în cantonul Dubrovnik-Neretva, Croația. Este una dintre cele mai proeminente stațiuni turistice de la Marea Adriatică în sudul extrem al Croației și centrul cantonului Dubrovnik-Neretva. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Grad – Centrul Vechi",
+            "address": "Stradun, 20000, Dubrovnik, Croația",
+            "description": "Deși cei mai mulți îi spun Old City, în traducere Grad înseamnă pur și simplu Oraș. Aici e de fapt inima Dubrovnikului, care îl face să pulseze de la primele ore ale dimineții până târziu în noapte."
           }
         ]
       },
       {
         "name": "Zadar",
-        "description": " ",
+        "description": " Zadar este un oraș în cantonul Zadar, Croația, având o populație de 75.062 de locuitori (2011).",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul arheologic din Zadar",
+            "address": " 23000, Zadar, Croația ",
+            "description": "Fondat în 1832, Muzeul Arheologic Zadar, cel de-al doilea vechi muzeu din Croația, este dedicat istoriei bogate a orașului și este un loc bun pentru a aduna o imagine de ansamblu asupra influențelor care au format această zonă din Dalmația. "
           }
         ]
       }
@@ -290,23 +290,23 @@
     "cities": [
       {
         "name": "Havana",
-        "description": " ",
+        "description": "Havanna este capitala, un oraș-port major, provincie și principalul centru comercial al Cubei. Cu o populație de 2,1 milioane de locuitori și o suprafață totală de 728,26 km2 − Havana este cel mai mare oraș din Cuba atât după suprafață cât și după numărul populației, dar și cea mai mare zonă metropolitană din Caraibe. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "El Capitolio ",
+            "address": "Paseo de Marti, Havana 10200 Cuba ",
+            "description": "El Capitolio, sau Clădirea Capitolului Național este un edificiu public și unul dintre cele mai vizitate situri din Havana, capitala Cuba. "
           }
         ]
       },
       {
         "name": "Santiago",
-        "description": " ",
+        "description": "Santiago de Cuba este al doilea cel mai mare oraș din Cuba și capitala provinciei Santiago de Cuba. Se află în zona de sud-est a insulei, la aproximativ 870 km sud-est de capitala Cubanei Havana. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Castelul San Pedro de la Roca",
+            "address": "Santiago de Cuba Cuba ",
+            "description": "Castelul de San Pedro de la Roca este o fortăreață de pe coasta orașului cubanez Santiago de Cuba. La aproximativ 6 km sud-vest de centrul orașului, aceasta are vedere la golf. "
           }
         ]
       }
@@ -319,23 +319,23 @@
     "cities": [
       {
         "name": "Nicosia",
-        "description": " ",
+        "description": " Nicosia (greacă: Λευκωσία, turcă: Lefkoşa) este capitala Ciprului.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul Ciprului",
+            "address": "Museum 1, Nicosia, Cipru",
+            "description": "Minunatul Cipru Muzeu ar trebui să fie pe lista tuturor vizitatorilor. Acest muzeu extrem de bine gândit tratează istoria insulei cu o colecție vastă de artefacte care datează din perioada neolitică până în epoca bizantină. "
           }
         ]
       },
       {
         "name": "Larnaca",
-        "description": " ",
+        "description": "Larnaka (greacă Λάρνακα) este un oraș situat pe costa sudică a Ciprului, cu o populație de 72.000 de locuitori. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Agios Lazaros ",
+            "address": "Πλατεία, Ayiou Lazarou, Larnaca, Cipru ",
+            "description": "După ce Lazăr a înviat din morți, el a locuit aici, în Larnaca (cunoscut apoi sub numele de Kition) pentru încă 30 de ani și a fost hirotonit ca episcop de Kition. Când a murit în cele din urmă - de data asta pentru binele - a fost îngropat aici, unde se află acum impresionatul Agios Lazaros "
           }
         ]
       }
@@ -348,23 +348,23 @@
     "cities": [
       {
         "name": "Prague",
-        "description": " ",
+        "description": "Praga este capitala Republicii Cehe. Orașul este situat pe râul Vltava, în Boemia Centrală, și are aproape 1,67 milioane de locuitori. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Podul Carol ",
+            "address": "Karlův most, 110 00 Praha 1, Cehia ",
+            "description": "Podul Carol este un pod istoric celebru, care traversează râul Vltava în Praga, Republica Cehă. Construcția sa a început în anul 1357, sub patronajul regelui Carol al IV-lea, și a fost terminată la începutul secolului al XV-lea. "
           }
         ]
       },
       {
         "name": "Tábor",
-        "description": " ",
+        "description": "Tábor este un oraș din regiunea Boemia de Sud a Republicii Cehe, la 100 de kilometri sud de capitala Praga. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Parcul U Popraviště",
+            "address": "Kapitána Jaroše; 390 03 Tábor ",
+            "description": "Acest parc este cel mai mare parc din Tábor. După cum sugerează și numele, parcul este construit în jurul unui fost gălăgioș, care a fost folosit în timpul celui de-al doilea război mondial. În 1942, 156 de patrioți au fost executați de către naționaliști. "
           }
         ]
       }
@@ -377,23 +377,23 @@
     "cities": [
       {
         "name": "Copenhagen",
-        "description": " ",
+        "description": "Copenhaga este capitala Danemarcei, fiind situată pe coasta orientală a insulei Sjælland și în mica insulă Amager, față în față cu strâmtoarea Øresund. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Castelul lui Hamlet de la Helsingør",
+            "address": "Kronborg 2 C, 3000 Helsingør, Danemarca ",
+            "description": "Este cel mai vizitat castel danez, cu peste 200.000 de turisti anual. Este castelul unde isi plaseaza Shakespeare actiunea tragediei Hamlet, Prince of Denmark. "
           }
         ]
       },
       {
         "name": "Aarhus",
-        "description": " ",
+        "description": "Aarhus este un oraș din Danemarca, situat în peninsula Iutlanda. Este al doilea oraș ca mărime al acestei țări și principalul său port. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Mindenparken",
+            "address": "Aarhus C,8000, 8000 Aarhus, Danemarca ",
+            "description": "Este un parc foarte apreciat pentru plimbari relaxante, sporturi de weekend și picnicuri. Este în parc întins, care te duce la Palatul Marselisborg, reședința de vară a Reginei Margareta a II-a a Danemarcei."
           }
         ]
       }
@@ -406,23 +406,23 @@
     "cities": [
       {
         "name": "Santo Domingo",
-        "description": " ",
+        "description": "Santo Domingo este capitala Republicii Dominicane. Acest oraș a fost construit curând după colonizarea noii lumi, și a fost considerat Prima capitală americană. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Acuario Nacional",
+            "address": "Av. España No.75, Santo Domingo Este 11603, Republica Dominicană",
+            "description": "Poti vedea peste 3.000 de specii marine caraibiene. Atractia principala o reprezinta tunelul din sticla. "
           }
         ]
       },
       {
         "name": "Bella Vista",
-        "description": " ",
+        "description": "Bella Vista este un sector din orașul Santo Domingo din Distrito Nacional al Republicii Dominicane. Bella Vista este populată în special de indivizi din clasa superioară. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Bella Vista Museum",
+            "address": "1885 Bella Vista Way Corner of Highway 71 and Kingsland, Bella Vista, AR 72714-3810",
+            "description": "Muzeul Bella Vista este o instituție permanentă, aflată în serviciul societății, deschisă publicului, care se ocupă cu strângerea, păstrarea, identificarea, catalogarea, analizarea, menținerea, conservarea și expunerea de diverse obiecte sau artefacte ce prezintă interes științific, istoric, artistic, tehnologic ș.a.m.d., în scopul studierii, educării, relaxării vizitatorilor, a oamenilor de știință. "
           }
         ]
       }
@@ -435,23 +435,23 @@
     "cities": [
       {
         "name": "Cairo",
-        "description": " ",
+        "description": " Cairo este capitala Egiptului cu o populație estimată între 16 și 20 de milioane de locuitori și o suprafață de 453 km2. Este cel mai mare oraș din Africa.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul Egiptean",
+            "address": " Tahrir Square rd Tahrir Square، Egipt",
+            "description": "Chiar în inima orașului se găsește cel mai mare și cel mai popular muzeu de istorie din Egipt, Muzeul Egiptean, cunoscut local sub denumirea de Muzeul Cairo. Colecția sa de peste 100 000 de artefacte este uluitoare, fiind compusă din obiecte de ceramică, bijuterii, sarcofage și, desigur, mumii, toate din trecutul antic al Egiptului. "
           }
         ]
       },
       {
         "name": "Giza",
-        "description": " ",
+        "description": "Giza este după Cairo și Alexandria al treilea oraș ca mărime din Egipt. El are un număr de 3.258.540 locuitori fiind situat în provincia al-Ǧīza, pe Valea Nilului în apropiere de Cairo.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Great Pyramid",
+            "address": "Al Haram, Nazlet El-Semman, Al Giza Desert, Giza Governorate, Egipt ",
+            "description": "Marea Piramidă din Giza (numită și Piramida Cheopilor) nu este doar cel mai faimos monument al acestui sit, ci unul dintre cele mai cunoscute monumente din lume. "
           }
         ]
       }
@@ -464,23 +464,23 @@
     "cities": [
       {
         "name": "Helsinki",
-        "description": " ",
+        "description": "Helsinki (sau Sunet Helsingfors în limba suedeză), este capitala și cel mai mare oraș al Finlandei. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Ateneul din Helsinki si Muzeul de Arta",
+            "address": "Eteläinen Rautatiekatu 8, 00100 Helsinki, Finlanda",
+            "description": "Ateneul din Helsinki (au si ei un Ateneu al lor, ce credeati?) adaposteste cel mai cunoscut muzeu de arta din Finlanda muzeu ce cuprinde unele dintre cele mai indragite lucrari clasice ale artei finlandeze ce dateaza din secolul al XIX-lea pana in anul 1950. "
           }
         ]
       },
       {
         "name": "Rovaniemi",
-        "description": " ",
+        "description": "Rovaniemi este un oraș și o comună din nordul Finlandei. Este capitala provincială a Laponiei și un centru comercial regional. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul Forestier al Laponiei",
+            "address": "Metsämuseontie 7, 96460 Rovaniemi, Finlanda",
+            "description": "Muzeul Forestier al Laponiei, unic prin colecțiile sale și modul de expunere. Este evocat stilul de viață al oamenilor din Laponia de-a lungul anilor 1870 – 1950, într-o perioadă în care exploatarea pădurilor reprezenta principala activitate a comunității."
           }
         ]
       }
@@ -493,12 +493,12 @@
     "cities": [
       {
         "name": "Paris",
-        "description": " ",
+        "description": "Paris este capitala și cel mai mare oraș din Franța. Orașul este traversat de fluviul Sena, în nordul Franței, în mijlocul regiunii Île-de-France. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Turnul Eiffel",
+            "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, Franța",
+            "description": "Turnul Eiffel este cel mai important obiectiv turistic din intregul Paris si cel mai renumit. Faima sa a trecut granitele Frantei inca de la inaugurarea lui in 1889, cu ocazia Expozitiei Universale care marca 100 de ani de la Revolutia Franceza. "
           }
         ]
       }
@@ -511,12 +511,12 @@
     "cities": [
       {
         "name": "Papeete",
-        "description": " ",
+        "description": "Papeete sau Pape'ete este capitala și cel mai mare oraș al regiunii franceze de peste mări Polinezia Franceză.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Robert Wan Pearl Museum",
+            "address": "56 Avenue du Commandant Destremau, Papeete 98713, Polinezia Franceză ",
+            "description": "Muzeul Robert Wan Pearl este singurul muzeu din lume dedicat perlelor. Muzeul Perlelor povestește istoria perlei din întreaga lume, fascinația pe care a trezit-o în persoane importante, legendele, obiceiurile și laturile tehnice ale perliculturii. Colecția privată a lui Robert Wan este expusă, prezentând cea mai mare perla tahitiană din lume."
           }
         ]
       }
@@ -529,23 +529,23 @@
     "cities": [
       {
         "name": "Berlin",
-        "description": " ",
+        "description": "Berlin este capitala Germaniei, fiind cel mai mare oraș al țării cu aproximativ 3,4 milioane de locuitori și acoperind o suprafață de aproximativ 892 km². ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Poarta Brandenburg",
+            "address": "Pariser Platz, 10117 Berlin, Germania",
+            "description": "Este, poate, unul dintre cele mai puternice simboluri ale Berlinului, atât prin construcție, dar și prin ceea ce reprezintă, fiind un monument care a fost construit ca simbol al păcii, a devenit simbolul victoriei, iar, mai apoi, odată cu evenimentele care au condus la căderea zidului Berlinului, a devenit ceea ce este și în prezent, simbolul unificării. "
           }
         ]
       },
       {
         "name": "Hamburg",
-        "description": " ",
+        "description": " Hamburg este numele unuia din cele 16 landuri federale ale Germaniei. Ca teritoriu este identic cu orașul, mai precis cu orașul-stat numit oficial \"Orașul liber și hanseatic Hamburg.\"",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Miniatur Wunderland",
+            "address": "Kehrwieder 2-4/Block D, 20457 Hamburg, Germania",
+            "description": "Deși facturat ca cea mai mare cale ferată din lume, Miniatur Wunderland din Hamburg este într-adevăr mult mai mult decât un simplu model de tren de jucării. Aceasta este cea mai mare cale ferată din lume, cu mai mult de 15.400 de metri de cale și 1.040 de trenuri. "
           }
         ]
       }
@@ -558,23 +558,23 @@
     "cities": [
       {
         "name": "Athens",
-        "description": " ",
+        "description": "Atena este capitala Greciei. Atena a cunoscut o evoluție glorioasă, mai ales în Grecia Antică, fiind locuită de oameni încă din Epoca Bronzului și guvernată până în jurul anului 1000 î.Hr. de regi ionieni. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Acropole ",
+            "address": "Athens 105 58, Grecia ",
+            "description": "Muzeul Acropolelor, bijuteria Greciei si chiar a intregii Europe. Aici sunt templele inchinate zeitei protectoare a orasului, Atena. "
           }
         ]
       },
       {
         "name": "Thessaloniki",
-        "description": " ",
+        "description": "Salonic denumit și Selânik, Salonika sau Salonica, este al doilea oraș ca mărime din Grecia și principalul oraș din regiunea greacă Macedonia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Turnul Alb din Salonic ",
+            "address": "Thessaloniki 546 21, Grecia ",
+            "description": "Turnul Alb din Salonic este un monument și muzeu în Salonic, capitala regiunii Macedonia din nordul Greciei. Turnul actual a înlocuit o fortificație bizantină mai veche, menționată în sec. XII. Otomanii au reconstruit-o, după ce sultanul Murad al II-lea a cucerit Salonicul în 1430, pentru a fortifica portul orașului. "
           }
         ]
       }
@@ -587,12 +587,12 @@
     "cities": [
       {
         "name": "Budapest",
-        "description": " ",
+        "description": "Budapesta este capitala Ungariei. Orașul este situat pe ambele maluri ale Dunării. În partea de est a Dunării se află Pesta, care ocupă două treimi din suprafață, iar pe partea de vest se află Buda, cealaltă treime a orașului. Budapesta are cca. 1,7 milioane de locuitori. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Bastionul Pescarilor ",
+            "address": "Budapest, Szentháromság tér, 1014 Ungaria ",
+            "description": "Aflându-se pe malul drept al Dunării, pe aceeași parte cu Castelul Buda, bastionul oferă o priveliște minunată a întregului oraș. Se spune că numele ar proveni din perioada Evului Mediu, atunci când zidurile orașului erau apărate de pescari. Te poți plimba prin grădină, poți face poze de sus Dunării sau chiar vizita Biserica Matyas, aflată în mijlocul acestui domeniu. "
           }
         ]
       }
@@ -605,12 +605,12 @@
     "cities": [
       {
         "name": "Reykjavik",
-        "description": " ",
+        "description": "Reykjavík ([ˈreiːcaˌviːk] în AFI) este capitala Islandei, cel mai mare oraș din această țară și capitala cea mai nordică din lume, fiind aflată foarte aproape de cercul polar. Se află în sud-vestul țării, în golful Faxaflói - o regiune cu multe peninsule, insule și strâmtori. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Hallgrimskirkja ",
+            "address": "Hallgrimstorgi 1, Reykjavik 101 Iceland ",
+            "description": "Hallgrimskirkja este cea mai mare biserică din țară și are turnuri peste centrul Reykjavik. Turnul său înalt de 73 de metri oferă o priveliște minunată la 360 ° asupra tuturor Reykjavikului, munților din jurul și oceanului care se întinde spre vest spre Groenlanda și America. "
           }
         ]
       }
@@ -623,7 +623,7 @@
     "cities": [
       {
         "name": "Mumbai",
-        "description": " ",
+        "description": "Mumbai este capitala statului indian Maharashtra și este cel mai populat oraș indian. Mumbai este situat pe o insulă în apropierea coastei vestice a Indiei.  ",
         "recommendations": [
           {
             "name": " ",
@@ -637,9 +637,9 @@
         "description": " ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Plaja Juhu ",
+            "address": "Juhu, Mumbai, Maharashtra 400049, India ",
+            "description": "Pe plaja Juhu gasesti indiscutabil cea mai buna mancare din tot Mumbaiul. Este un loc unde se aduna indienii sa socializeze si sa se distreze. "
           }
         ]
       }
@@ -652,23 +652,23 @@
     "cities": [
       {
         "name": "Bali",
-        "description": " ",
+        "description": "Bali este o insulă mică din Indonezia, între insulele Java Sumatra și Lombok, este una dintre cele mai mari atracții turistice din lume, datorita atat calitatilor balneo-climaterice naturale imbinate cu tehnicile terapeutice traditionale de origine indiana, chinezeasca contopite in masajul balinez anti stress cat si posibilitatilor foarte variate de divertisment, ce includ surfing, scufundari, pescuit, excursii in jungla, turism cultural. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Cascada Gitgit",
+            "address": "Jl. Raya Bedugul - Singaraja, Gitgit, Kec. Sukasada, Kabupaten Buleleng, Bali 81161, Indonezia ",
+            "description": "Cascada Gitgit este una dintre cele mai populare din Bali, aflata la doar 10 km sud de orasul principal Singaraja din nordul Bali-ului, sau la 80 km nord de Kuta. "
           }
         ]
       },
       {
         "name": "Jakarta",
-        "description": " ",
+        "description": "Jakarta este capitala Indoneziei, situată în nord-vestul insulei Java, la gura de vărsare a fluviului Liwung în Golful Jakarta. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Medan Merdeka ",
+            "address": "Jakarta, Indonesia ",
+            "description": "Este o piaţă largă de un kilometru pătrat, situată în centrul oraşului. În centrul pieţei se află Monumentul Naţional (Monas), un turn înalt de 132 metri."
           }
         ]
       }
@@ -681,23 +681,23 @@
     "cities": [
       {
         "name": "Rome",
-        "description": " ",
+        "description": "Roma este capitala Italiei. Situat pe malul fluviului Tibru, orașul are o istorie îndelungată fiind de-a lungul secolelor capitala Republicii Romane, a Imperiului Roman, a Bisericii Romano-Catolice și a Italiei moderne. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Colosseum ",
+            "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italia ",
+            "description": "Colosseumul măsoară 188 de metri lungime, 156 de metri lățime și 48 de metri înălțime și putea găzdui aproximativ 55.000 de spectatori care puteau intra prin 88 de porți pentru a se bucura de spectacole de comedie, prezentări de animale exotice sau lupte între gladiatori și animale. "
           }
         ]
       },
       {
         "name": "Milan",
-        "description": " ",
+        "description": "Milano este principalul oraș din Italia de nord. Se află pe câmpiile Lombardiei, una dintre cele mai dezvoltate regiuni urbane ale Italiei. Milano este de asemenea recunoscut ca una din capitalele modei și design-ului, metropola Lombardiei fiind faimoasă prin casele de modă și cochetele ei magazine, cum ar fi cele de pe via Montenapoleone sau din renumita Galleria Vittorio Emanuele II din Piazza Duomo. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Domul din Milano ",
+            "address": "Piazza del Duomo, 20122 Milano MI, Italia ",
+            "description": "Domul din Milano, în italiană Duomo di Santa Maria Nascente, este catedrala Arhiepiscopiei Romano-Catolice de Milano.Cu o suprafață de 12000 mp, catedrala milaneză, una dintre imaginile emblematice ale Italiei și ale Europei, este cel de-al treilea edificiu bisericesc romano-catolic ca mărime din Italia, după Bazilica San Pietro din Roma și Catedrala Santa Maria din Florența. "
           }
         ]
       }
@@ -710,12 +710,12 @@
     "cities": [
       {
         "name": "Tokyo",
-        "description": " ",
+        "description": "Tokyo este capitala Japoniei și una dintre cele 47 de prefecturi ale țării [3]. Este cea mai populată zonă metropolitană din lume și considerat unul dintre cele mai moderne orașe din lume. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Palatul Imperial ",
+            "address": "1-1 Chiyoda, Chiyoda City, Tokyo 100-8111, Japonia ",
+            "description": "Chiar in centrul orasului Tokyo este situat Palatul Imperial. Intreaga zona este un parc imens, inconjurat de canale cu apa care despart cele patru sectiuni. Accesul in acest parc se face prin mai multe poduri pitoresti si puteti vedea o multime de gradini, precum si numeroase cladiri istorice, puncte de reper si facilitati sportive. "
           }
         ]
       }
@@ -728,23 +728,23 @@
     "cities": [
       {
         "name": "Amman",
-        "description": " ",
+        "description": "Amman este capitala și cel mai mare oraș al Iordaniei. Amman, denumit în antichitate \"Philadelphia\", a fost construit pe șapte coline. Astăzi, Amman este un oraș modern, în care locuiesc atât musulmani cât și creștini. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Rainbow Street ",
+            "address": "Rainbow St, Amman Jordan",
+            "description": "Strada curcubeului, denumită inițial strada Abu Bakr al Siddiq, este un spațiu public în zona istorică din Jabal Amman, aproape de centrul orașului Amman, Iordania. Strada merge spre est de la First Circle până la Mango Street și conține mai multe atracții, de la restaurante de acoperiș la pub-uri. "
           }
         ]
       },
       {
         "name": "Petra",
-        "description": " ",
+        "description": "Petra este un fost oraș antic, situat în Iordania. Este unul din cele mai celebre situri arheologice din lume, datorită templelor săpate direct în stâncă, cel mai cunoscut fiind \"Trezoreria\" (\"Al Khazneh\"), în stil grecesc, cu o înălțime de 42 m, unde s-a turnat și partea finală a filmului Indiana Jones și ultima cruciadă. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Mormintele regale ",
+            "address": "Wadi Musa, Iordania ",
+            "description": "O colecție de monumente magnifice, cunoscute sub numele de Morminte Regale, este sculptată în stâncile orientate spre vest ale Jebel Al Khubtha. Se crede că sunt locul de odihnă final al regalității Nabatean. "
           }
         ]
       }
@@ -757,23 +757,23 @@
     "cities": [
       {
         "name": "Valletta",
-        "description": " ",
+        "description": "La Valletta, populație 9.129 (1994), este capitala Maltei. La Valletta este o așezare din secolul al XVI-lea, cu multe clădiri din timpul Cavalerilor Maltezi, conducătorii de lungă durată a orașului. Este numit după fondatorul său, marele maestru Jean de la Valletta. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Gradinile Barracca ",
+            "address": "292 Triq Sant' Orsla, Il-Belt Valletta, Malta ",
+            "description": "Grădinile Upper Barrakka sunt o grădină publică din Valletta, Malta. Împreună cu Grădinile Barrakka de Jos din același oraș, acestea oferă o vedere panoramică a Marelui Port. "
           }
         ]
       },
       {
         "name": "Mdina",
-        "description": " ",
+        "description": "Mdina este vechea capitală a statului Malta. Mdina sau Medina și în malteză L-Imdina este un oraș vechi numit în feniciană Melitta; cunoscut și sub denumirile Citta Vecchia sau Citta Notabile. Este un oraș fortificat în regiunea de nord a Maltei. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Mdina Citadel",
+            "address": "Mdina, Malta ",
+            "description": "Cunoscut ca Cittadella, fortificațiile orașului datează din perioada medievală când orașul era condus de arabi și normani. "
           }
         ]
       }
@@ -786,23 +786,23 @@
     "cities": [
       {
         "name": "Cancún",
-        "description": " ",
+        "description": "Cancún este un oraș din Mexic, situat în peninsula Yucata. Este o stațiune balneoclimaterică foarte populară pe coasta Golfului Mexic. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Isla Contoy ",
+            "address": "Isla Contoy 77500 Mexic",
+            "description": "Este situat la aproximativ 30 km nord de Isla Mujeres şi este considerată a fi cel mai important loc de cuibărit pentru păsările de mare din partea mexicană a Caraibelor, cu mai mult de 150 de specii diferite. "
           }
         ]
       },
       {
         "name": "Ciudad de México",
-        "description": " ",
+        "description": "Ciudad de México este capitala Mexicului. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Metropolitan Cathedral ",
+            "address": "Avenida 16 de Septiembre Colonia Centro, Mexico City 06010 Mexico ",
+            "description": "Una dintre cele mai mari biserici din America Latină, această faimoasă catedrală domină Zócalo."
           }
         ]
       }
@@ -815,23 +815,23 @@
     "cities": [
       {
         "name": "Oslo",
-        "description": " ",
+        "description": "Oslo este capitala și cea mai populată comună a Norvegiei. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul Corabiilor Vikinge ",
+            "address": "Huk Aveny 35, Bygdøy Peninsula ",
+            "description": "Situat in Peninsula Bygdøy, muzeul expune trei nave vikinge ce au fost recuperate din sudul Norvegiei din morminte ce dateaza din secolul IX. Navele se afla intr-o conditie excelenta datorita uleiului cu care erau imbalsamate in ritualul de inmormantare. Aceste nave erau folosite ca morminte pentru regii vikingi, care erau ingropati impreuna cu toate lucrurile de care ar putea avea nevoie in viata de apoi. "
           }
         ]
       },
       {
         "name": "Tromsø",
-        "description": " ",
+        "description": "Tromsø este un oraș în nordul Norvegiei, în județul Troms. Ca populație este al 7-lea oraș ca mărime din Norvegiei și a 9-a zonă urbană ca mărime. ",
         "recommendations": [
           {
-            "name": " ",
+            "name": "Catedrala Arctica ",
             "address": " ",
-            "description": " "
+            "description": "Arhitectul Jan Inge Hovig a reușit să creeze o capodoperă. Catedrala este un reper vizibil de la sunetul Tromsø, podul Tromsø și când aterizează în Tromsø cu aeronave. Cele 11 panouri din beton acoperite cu aluminiu pe fiecare parte a acoperișului oferă forma catedralei. "
           }
         ]
       }
@@ -844,12 +844,12 @@
     "cities": [
       {
         "name": "Lima",
-        "description": " ",
+        "description": "Lima este capitala și cel mai mare oraș al Republicii Peru, fiind de asemenea capitala Provinciei Lima. Este centrul comercial, industrial, financiar și cultural al țării. Orașul este localizat în văile dintre râurile Chillon, Rimac, Lurin. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Cartierul Miraflores ",
+            "address": "Miraflores District, Lima Peru ",
+            "description": "Miraflores este un district al provinciei Lima din Peru. Este un cartier comercial exclusiv rezidențial și de lux la sud de centrul orașului Lima. Este, de asemenea, unul dintre cele mai bogate districte care formează orașul Lima. "
           }
         ]
       }
@@ -862,23 +862,23 @@
     "cities": [
       {
         "name": "Lisabona",
-        "description": " ",
+        "description": "Lisabona (în portugheză Lisboa) este capitala Portugaliei. Este plasată pe coasta de vest a țării, la Oceanul Atlantic, unde râul Tejo, se varsă în ocean. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Oceanariul din Lisabona ",
+            "address": "Esplanada Dom Carlos I s/nº, 1990-005 Lisboa, Portugalia",
+            "description": "Oceanariul din Lisabona este un oceanariu din Lisabona, Portugalia. Acesta este situat în Parque das Nações, care a fost terenul de expoziție pentru Expo '98. Este cel mai mare acvariu interior din Europa. "
           }
         ]
       },
       {
         "name": "Porto",
-        "description": " ",
+        "description": "Porto (portugheză ['poɾtu]), este capitala districtului omonim din Portugalia. Orașul este al treilea din țară după Lisabona și orașul vecin Vila Nova de Gaia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Biserica San Francisco Porto ",
+            "address": "Rua do Infante D. Henrique, 4050-297 Porto, Portugalia",
+            "description": "Biserica San Francisco – Sfântul Francisc este o minunată biserică gotică la exterior. Construcția a fost începută în 1245 de către franciscani, biserica fiind terminată în anul 1425. "
           }
         ]
       }
@@ -891,23 +891,23 @@
     "cities": [
       {
         "name": "Bucharest",
-        "description": " ",
+        "description": "București este capitala României. Este cel mai populat oraș și cel mai important centru industrial și comercial al țării. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Palatul Parlamentului ",
+            "address": "Strada Izvor 2-4, București ",
+            "description": "Una dintre cele mai interesante și mai valoroase clădiri din București este Palatul Parlamentului. Construit în stil brâncovenesc, cu influențe renascentiste, baroce și germanice, acest edificiu grandios te va impresiona prin stilul său arhitectonic și cele peste 1000 de încăperi pe care le include. "
           }
         ]
       },
       {
         "name": "Cluj-Napoca",
-        "description": " ",
+        "description": "Cluj-Napoca este municipiul de reședință al județului Cluj, Transilvania, România. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Parcul Central \"Simion Barnutiu\"",
+            "address": "Parcul Central, Cluj-Napoca ",
+            "description": "Parcul Central \"Simion Bărnuțiu\", colocvial Parcul Mare, în maghiară Sétatér, cu o vechime de peste 180 de ani, este unul dintre principalele spații verzi din zona centrală a municipiului Cluj-Napoca. "
           }
         ]
       }
@@ -920,23 +920,23 @@
     "cities": [
       {
         "name": "Moscow",
-        "description": " ",
+        "description": "Moscova este orașul cu cea mai numeroasă populație din Rusia și cel mai populat subiect federal al Rusiei. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Piata Rosie ",
+            "address": "Red Square, Moscow, Rusia, 109012",
+            "description": "Piața Roșie este cea mai cunoscută piață din Moscova. "
           }
         ]
       },
       {
         "name": "St Petersburg",
-        "description": " ",
+        "description": "Sankt Petersburg este un oraș din Rusia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Muzeul Ermitaj",
+            "address": "Palace Square, 2, St Petersburg, Rusia, 190000 ",
+            "description": "Initial construit ca si resedinta de Iarna a lui Petru cel Mare, in prezent este deschis turistilor ca muzeu ce contine obiecte de arta inspirate din cultura vest-europeana. Personalitatea care a contribuit cel mai mult la acest muzeu a fost Ecaterina cea Mare. "
           }
         ]
       }
@@ -949,12 +949,12 @@
     "cities": [
       {
         "name": "Singapore",
-        "description": " ",
+        "description": "Singapore oficial Republica Singapore, este un oraș-stat insular și cea mai mică țară din Asia de Sud-Est. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Singapore Zoo",
+            "address": "80 Mandai Lake Rd, Singapore 729826 ",
+            "description": "Gradina zoologica din Singapore, cunoscuta anterior ca Gradinile Zoologice din Singapore sau Gradina Zoologica din Singapore si acum cunoscuta local sub denumirea de Gradina Zoologica din Singapore, ocupa 28 de hectare (69 de acri) pe marginea rezervorului Seletarului Superior, in zona de acvatie centrala puternic impadurita din Singapore. "
           }
         ]
       }
@@ -967,23 +967,23 @@
     "cities": [
       {
         "name": "Ljubljana",
-        "description": " ",
+        "description": "Ljubljana este capitala Sloveniei și în același timp, cel mai mare oraș din țară. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Opera din Ljubljana",
+            "address": "Župančičeva ulica 1, 1000 Ljubljana, Slovenia ",
+            "description": "Opera din Ljubljana este o casa de operă din Ljubljana, capitala Sloveniei. Sediul companiei naționale de operă și balet, opera și baletul teatrului național din Ljubljana Slovene, servește ca clădire de operă națională a țării. "
           }
         ]
       },
       {
         "name": "Bled",
-        "description": " ",
+        "description": "Bled este o renumită stațiune montană din Slovenia. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Lacul Bled ",
+            "address": "4260 Bled, Slovenia ",
+            "description": "Lacul Bled (în slovenă Blejsko jezero; în germană Bleder See, Veldeser See) este un lac din Alpii Iulieni, situat în regiunea Carniola Superioară din nord-vestul Sloveniei, în vecinătatea orașului Bled. Zona este o destinație turistică populară. "
           }
         ]
       }
@@ -996,34 +996,34 @@
     "cities": [
       {
         "name": "Barcelona",
-        "description": " ",
+        "description": "Barcelona este capitala Cataloniei, o comunitate autonomă din nord-estul Spaniei. Este de asemenea al doilea cel mai mare oraș al Spaniei, după Madrid. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Sagrada Familia ",
+            "address": "Carrer de Mallorca, 401, 08013 Barcelona, Spania ",
+            "description": "Sagrada Família (Sfânta Familie) este o biserică din capitala Cataloniei, Barcelona (în nord-estul Spaniei). Imensa clădire este încă neterminată, deși se lucrează la ea din 1882. "
           }
         ]
       },
       {
         "name": "Madrid",
-        "description": " ",
+        "description": "Madrid este capitala Spaniei. Construit pe ruinele unui fort maur numit Magerit, orașul a devenit capitală în 1561, în timpul domniei lui Filip al II-lea de Habsburg. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Muzeul Prado ",
+            "address": "Calle de Ruiz de Alarcón, 23, 28014 Madrid, Spania ",
+            "description": "Muzeul Prado (în spaniolă Museo del Prado) este un muzeu și o galerie de artă amplasat în Madrid, Spania. Cuprinde una dintre cele mai interesante colecții de artă europeană, din secolul al XIV-lea și până la începutul secolului al XIX-lea. "
           }
         ]
       },
       {
         "name": "Sevilla",
-        "description": " ",
+        "description": "Sevilla este capitala regiunii autonome Andaluzia și a provinciei Sevilla din Spania. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Torre del Oro",
+            "address": "Paseo de Cristóbal Colón, s/n, 41001 Sevilla, Spania ",
+            "description": "Torre del Oro este o turn de veghe militară dodecagonală din Sevilla, sudul Spaniei. Acesta a fost ridicat de Califatul Almohad pentru a controla accesul la Sevilla prin râul Guadalquivir. "
           }
         ]
       }
@@ -1036,23 +1036,23 @@
     "cities": [
       {
         "name": "Bangkok",
-        "description": " ",
+        "description": "Bangkok este capitala și cel mai mare oraș al Thailandei. Orașul este printre cele mai populare destinații de turism din lume, statiune balneoclimaterica cu iesire la golful Thailandei, și în ultimii ani a devenit un centru economic și social care să rivalizeze Hong Kong și Singapore. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Parcul Lumphini",
+            "address": "Rama IV Rd, Lumphini, Pathum Wan District, Bangkok 10330, Thailanda",
+            "description": "În ciuda faptului că Bangkok este un oraș foarte populat, puteți găsi unele zone verzi unde puteți face o plimbare plăcută, în Parcul Lumphini veți găsi oameni care fac sport la orice oră, vă recomand să îl vizitați noaptea pentru a vă bucura de toată esența acestuia, înconjurat de luminile clădirilor din Bangkok. "
           }
         ]
       },
       {
         "name": "Phuket",
-        "description": " ",
+        "description": "Phuket este o provincie din Thailanda. Situată în regiunea de Sud, provincia Phuket are în componența sa 3 districte. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": " Big Buddha",
+            "address": "Ngong Ping Rd, Lantau Island, Hong Kong ",
+            "description": "Big Buddha, o construcție aflată în sud-estul insulei, încă nefinalizată și realizată în totalitate din donații. Locul este un celebru punct de panoramă unde, de câțiva ani, a început înălțarea unuia dintre cele mai mari temple dedicate lui Buddha, de 45 de metri – chiar dacă este, practic, o statuie, în interiorul ei se află un templu, iar curtea adăpostește alte zone mai mici unde localnicii vin să aducă ofrande sau să mediteze. "
           }
         ]
       }
@@ -1065,34 +1065,34 @@
     "cities": [
       {
         "name": "Istanbul",
-        "description": " ",
+        "description": "Istanbul este cea mai mare concentrare urbană a Turciei și singurul megalopolis din lume întins pe două continente. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Marele Bazaar ",
+            "address": "Beyazıt, Kalpakçılar Cd. No:22, 34126 Fatih/İstanbul, Turcia ",
+            "description": "Marele Bazaar din Istanbul este o zona fabuloasa pentru shopping, cea mai importanta piata spre care trebuie sa va indreptati atentia daca doriti sa faceti cumparaturi in Istanbul. Pe langa shopping, Marele Bazaar este si una dintre principalele atractii din Istanbul, care atrag curiosi, pofticiosi si pasionati de traditii ale tarilor straine. "
           }
         ]
       },
       {
         "name": "Ankara",
-        "description": " ",
+        "description": "Ankara este capitala Turciei și al doilea cel mai mare oraș al țării, după Istanbul. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Moscheea Kocatepe ",
+            "address": "Kültür, Dr. Mediha Eldem Sk. No:67, 06420 Çankaya/Ankara, Turcia ",
+            "description": "Moscheea Kocatepe este o moschee din Ankara, Turcia. Aceasta este cea mai mare moschee din oraș și una dintre cele mai mari moschei din această țară. "
           }
         ]
       },
       {
         "name": "Antalya",
-        "description": " ",
+        "description": "Antalya este un oraș în sudul Turciei, situat la poalele munților Taurus, pe litoralul Mării Mediterane. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Poarta lui Hadrian ",
+            "address": "Barbaros, 07100 Muratpaşa/Antalya, Turcia ",
+            "description": "Poarta lui Hadrian este un arc triumfal situat în Antalya, Turcia, care a fost construit pe numele împăratului roman Hadrian, care a vizitat orașul în anul 130. Este singura poartă de intrare rămasă în zidurile care înconjoară orașul și portul. "
           }
         ]
       }
@@ -1105,12 +1105,12 @@
     "cities": [
       {
         "name": "Kiev",
-        "description": " ",
+        "description": "Kiev este capitala și cel mai mare oraș al Ucrainei.",
         "recommendations": [
           {
             "name": " ",
             "address": " ",
-            "description": " "
+            "description": "Kiev in Miniature este un parc de miniaturi, situat în Kiev, în zona Hidroparkului. Există modele expuse de obiective de arhitectură din Kiev, la scara 1:33. "
           }
         ]
       }
@@ -1123,56 +1123,56 @@
     "cities": [
       {
         "name": "London",
-        "description": " ",
+        "description": "Londra (în engleză London) este capitala Angliei și a Regatului Unit. Este cel mai important centru politic, financiar (datorită City-ului), cultural și artistic al Regatului Unit, și unul dintre cele mai importante orașe ale lumii.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Tower Bridge ",
+            "address": "Tower Bridge Rd, London SE1 2UP, Regatul Unit ",
+            "description": "Tower Bridge este un pod peste Tamisa situat în Londra. Podul a fost construit între anii 1888 - 1894 și leagă partea de sud cu nordul orașului. "
           }
         ]
       },
       {
         "name": "Edinburgh",
-        "description": " ",
+        "description": "Edinburgh este un oraș de pe coasta de est a Scoției, și capitala acesteia din 1437. Este una dintre cele 32 subdiviziuni ale Scoției. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Galeria Nationala a Scotiei ",
+            "address": "The Mound, Edinburgh EH2 2EL, Regatul Unit ",
+            "description": "Galeria Națională a Scoției (în engleză National Gallery of Scotland sau Scottish National Gallery) este o galerie de artă, găzduită într-o clădire în stil neoclasic din centrul orașului Edinburgh proiectată de William Henry Playfair. "
           }
         ]
       },
       {
         "name": "Manchester",
-        "description": " ",
+        "description": "Manchester (/ˈmantʃɛstər/ ) este unul dintre marile orașe engleze, organizat din punct de vedere administrativ sub forma unui Burg Metropolitan în cadrul Comitatului Metropolitan Greater Manchester în regiunea North West England. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Manchester Jewish Museum ",
+            "address": "190 Cheetham Hill Rd, Cheetham Hill, Manchester M8 8LW, Regatul Unit ",
+            "description": "Sinagoga a fost construită în stilul Moorish Revival de către renumitul arhitect Manchester Salomons, Edward Salomons, în 1874. Deși este departe de a fi cea mai mare sau mai magnifică dintre numeroasele sinagogi de renaștere maură din lume, care includ opulenta Sinagoga Princes Road din Liverpool, aceasta este considerat de istoricul arhitectural H.A Meeks să fie o „bijuterie”. "
           }
         ]
       },
       {
         "name": "Liverpool",
-        "description": " ",
+        "description": "Liverpool este oraș și un Burg Metropolitan în cadrul Comitatului Metropolitan Merseyside în regiunea North West England. Este unul dintre principalele orașe engleze, zona metropolitană având peste 800.000 locuitori. În Secolul XIX Liverpool era considerat al doilea port al Imperiului Britanic după Londra. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Galeriile Tate Liverpool ",
+            "address": "Albert Dock, Liverpool L3 4BB, Regatul Unit ",
+            "description": "Tate Liverpool este o galerie de artă și muzeu din Liverpool, Merseyside, Anglia și face parte din Tate, împreună cu Tate St Ives, Cornwall, Tate Britain, Londra și Tate Modern, Londra. Muzeul a fost o inițiativă a Merseyside Development Corporation. "
           }
         ]
       },
       {
         "name": "Birmingham",
-        "description": " ",
+        "description": "Birmingham este al doilea oraș ca mărime în Regatul Unit. Este un Burg Metropolitan în cadrul Comitatului Metropolitan West Midlands în regiunea West Midlands. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Piata Victoria ",
+            "address": "Birmingham B1 1BD, Regatul Unit ",
+            "description": "Piața Victoria este o piață publică pietonală din Birmingham, Anglia. Acesta este acasă atât la Primărie, cât și la Casa Sfatului și direct lângă Piața Chamberlain. "
           }
         ]
       }
@@ -1185,56 +1185,59 @@
     "cities": [
       {
         "name": "New York",
-        "description": " ",
+        "description": " Orașul New York este cel mai populat oraș din Statele Unite ale Americii, zona sa metropolitană fiind una dintre cele mai mari zone urbane din lume.",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Central Park ",
+            "address": "New York, NY, Statele Unite ale Americii ",
+            "description": "Central Park este un parc din Manhattan, New York, deschis în anul 1859. Are 315 ha și este vizitat anual de circa 25 de milioane de persoane. Este considerat cel mai frumos parc din New York. "
           }
         ]
       },
       {
         "name": "San Francisco",
-        "description": " ",
+        "description": "San Francisco, al cărui nume oficial complet este [The] City and County of San Francisco, în limba română Orașul și Comitatul San Francisco, pe scurt doar San Francisco, este cel de-al patrulea oraș ca mărime din California și al paisprezecelea ca mărime a populației din Statele Unite ale Americii. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Lombard Street ",
+            "address": "San Francisco, CA, Statele Unite ale Americii ",
+            "description": "Neobișnuită ca aspect, Lombard street a devenit una dintre cele mai cunoscute atracții turistice din San Francisco. Este poreclită ”cea mai strâmbă stradă din oraș” chiar dacă acest statut nu e chiar corect. "
           }
         ]
       },
       {
         "name": "Chicago",
-        "description": " ",
+        "description": "Chicago este cel mai mare oraș din statul Illinois și al treilea oraș ca mărime din Statele Unite ale Americii. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Navy Pier ",
+            "address": "600 E Grand Ave, Chicago, IL 60611, Statele Unite ale Americii ",
+            "description": "Navy Pier a deschis inițial în 1916 ca zonă de distracție și facilități de transport, dar acum este una dintre cele mai populare atracții turistice din Chicago. Astăzi, digul Navy este alcătuit din 50 de acri de grădini, atracții, magazine, restaurante, locuri de concerte și parcuri. "
           }
         ]
       },
       {
         "name": "Los Angeles",
-        "description": " ",
+        "description": "Los Angeles , cunoscut ca L.A. ori în mod colocvial [the] „City of Angels” (Orașul Îngerilor), este cel mai mare oraș din statul California și al doilea că mărime a populației din Statele Unite ale Americii, fiind întrecut doar de New York City. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Hollywood Walk of Fame ",
+            "address": "Hollywood Boulevard, Vine St, Los Angeles, CA 90028, Statele Unite ale Americii ",
+            "description": "Hollywood Walk of Fame, un bulevard cu peste 2600 de stele pavate în trotuar, este, fără îndoială, una dintre cele mai de succes idei de marketing produse vreodată, ce atrage peste 10 milioane de turiști anual. "
           }
         ]
       },
       {
-        "name": "Whashington D.C.",
-        "description": " ",
+        "name": "Washington D.C.",
+        "description": "Washington, D.C., oficial Districtul Columbia sau simplu D.C. este capitala Statelor Unite ale Americii, fondată în 16 iulie 1790. ",
         "recommendations": [
           {
-            "name": " ",
-            "address": " ",
-            "description": " "
+            "name": "Casa Alba ",
+            "address": "1600 Pennsylvania Avenue NW în Washington, D.C. ",
+            "description": "Casa Albă (în engleză The White House) este reședința oficială și principalul loc de muncă al președintelui Statelor Unite ale Americii. Clădirea oficial a primit numele de Palatul Prezidențial, sediul executivului, până când președintele Theodore Roosevelt a numit-o "
+            Casa
+            Albă
+            ".  "
           }
         ]
       }

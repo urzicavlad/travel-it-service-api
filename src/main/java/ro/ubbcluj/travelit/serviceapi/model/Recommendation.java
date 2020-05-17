@@ -1,11 +1,13 @@
 package ro.ubbcluj.travelit.serviceapi.model;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import javax.persistence.*;
 
 @Data
 @Entity
+@Accessors(chain = true)
 public class Recommendation {
 
     @Id

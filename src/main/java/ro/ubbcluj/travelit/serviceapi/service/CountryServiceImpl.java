@@ -4,6 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FileCopyUtils;
 import ro.ubbcluj.travelit.serviceapi.model.Country;
@@ -33,19 +35,24 @@ public class CountryServiceImpl implements CountryService {
     }
 
     @Override
-    public List<Country> getAllCountries() {
+    public List<Country> getAll() {
         return StreamSupport.stream(countryRepository.findAll().spliterator(), false).collect(Collectors.toList());
     }
 
     @Override
-    public Country getCountryById(Long id) {
+    public Country getById(Long id) {
         return countryRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Country not found!"));
     }
 
     @Override
-    public String populateDatabase(){
+    public String populateDatabase() {
         prePopulateDatabase();
         return "Done!";
+    }
+
+    @Override
+    public Page<Country> getPaginated(Pageable pageable) {
+        return countryRepository.findAll(pageable);
     }
 
 

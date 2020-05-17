@@ -1,4 +1,4 @@
-package ro.ubbcluj.travelit.serviceapi.service;
+package ro.ubbcluj.travelit.serviceapi.service.impl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.FileCopyUtils;
 import ro.ubbcluj.travelit.serviceapi.model.Country;
 import ro.ubbcluj.travelit.serviceapi.repository.CountryRepository;
+import ro.ubbcluj.travelit.serviceapi.service.CountryService;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -36,12 +37,14 @@ public class CountryServiceImpl implements CountryService {
 
     @Override
     public List<Country> getAll() {
-        return StreamSupport.stream(countryRepository.findAll().spliterator(), false).collect(Collectors.toList());
+        return StreamSupport.stream(countryRepository.findAll().spliterator(), false)
+                .collect(Collectors.toList());
     }
 
     @Override
     public Country getById(Long id) {
-        return countryRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Country not found!"));
+        return countryRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Country not found!"));
     }
 
     @Override

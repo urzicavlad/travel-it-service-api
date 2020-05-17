@@ -5,7 +5,6 @@ import org.springframework.data.domain.Pageable;
 import ro.ubbcluj.travelit.serviceapi.model.Country;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 public interface CountryService {
 
@@ -16,4 +15,5 @@ public interface CountryService {
     String populateDatabase();
 
     Page<Country> getPaginated(Pageable pageable);
+
 }

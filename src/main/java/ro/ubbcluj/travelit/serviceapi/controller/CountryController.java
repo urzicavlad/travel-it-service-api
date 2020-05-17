@@ -22,7 +22,6 @@ public class CountryController {
         this.countryService = countryService;
     }
 
-
     @GetMapping("/{id}")
     public Country getById(@PathVariable Long id) {
         return countryService.getById(id);

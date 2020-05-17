@@ -14,7 +14,7 @@ public class City {
     private Long id;
     @Column(length = 256)
     private String name;
-    @Column(length = 50000)
+    @Column(length = 15000)
     private String description;
     @OneToMany(cascade=CascadeType.ALL)
     private Set<Recommendation> recommendations;

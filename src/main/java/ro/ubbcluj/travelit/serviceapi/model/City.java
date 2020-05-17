@@ -16,9 +16,10 @@ public class City {
     private Long id;
     @Column(length = 256)
     private String name;
+    @ManyToOne
+    private Country country;
     @Column(length = 15000)
     private String description;
     @OneToMany(cascade = CascadeType.ALL)
     private Set<Recommendation> recommendations;
-
 }

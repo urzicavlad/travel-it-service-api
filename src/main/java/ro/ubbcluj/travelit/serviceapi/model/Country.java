@@ -22,5 +22,4 @@ public class Country {
     private String flag;
     @OneToMany(cascade = CascadeType.ALL)
     private Set<City> cities;
-
 }

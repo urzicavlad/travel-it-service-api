@@ -6,5 +6,4 @@ import ro.ubbcluj.travelit.serviceapi.model.Country;
 
 @Repository
 public interface CountryRepository extends PagingAndSortingRepository<Country, Long> {
-
 }

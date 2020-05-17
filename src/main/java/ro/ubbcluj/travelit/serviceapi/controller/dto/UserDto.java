@@ -1,33 +1,29 @@
-package ro.ubbcluj.travelit.serviceapi.model;
+package ro.ubbcluj.travelit.serviceapi.controller.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
+import ro.ubbcluj.travelit.serviceapi.model.Country;
 
-import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
 import java.util.Set;
 
 @Data
-@Entity
 @Accessors(chain = true)
-public class User {
+public class UserDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column
+    @NotNull
     private String firstName;
-    @Column
+    @NotNull
     private String lastName;
-    @Column(unique = true)
+    @Email
     private String email;
-    @Column(unique = true)
+    @NotNull
     private String username;
-    @Column
+    @NotNull
     private String password;
-    @Column
     private String avatar;
-    @Column
     private String originCountry;
-    @ManyToMany(cascade = CascadeType.ALL)
     private Set<Country> favouriteDestinations;
 }

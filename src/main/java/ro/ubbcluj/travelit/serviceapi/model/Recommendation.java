@@ -15,9 +15,9 @@ public class Recommendation {
     private Long id;
     @Column(length = 256)
     private String name;
-    @Column(length = 500)
+    @Column(length = 256)
     private String address;
-    @Column(length = 50000)
+    @Column(length = 15000)
     private String description;
 
 }

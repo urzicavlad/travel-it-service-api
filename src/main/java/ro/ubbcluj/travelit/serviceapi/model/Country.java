@@ -18,7 +18,7 @@ public class Country {
     private String name;
     @Column(length = 2)
     private String code;
-    @Column(length = 50000)
+    @Column(length = 15000)
     private String flag;
     @OneToMany(cascade = CascadeType.ALL)
     private Set<City> cities;

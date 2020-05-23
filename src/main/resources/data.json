@@ -595,6 +595,8 @@
     "name": "Greece",
     "code": "GR",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "O tara cu o cultura si o istorie care a influentat dezvoltarea intregii omeniri, Grecia este, fara doar si poate, o destinatie care trebuie bifata macar o data in viata. Daca, insa, analizezi cate iti ofera, poti descoperi ca un singur sejur nu este suficient pentru a te bucura de tot ce are de oferit ea. Arhitectura, plajele, mancarea si ospitalitatea grecilor sunt motivele pentru care in aceasta tara ajung intr-un singur an peste 30 de milioane de turisti.",
+    "image": "https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/ff9b3376-bbb1-6d68-f231-483a5a6e722e/630x355.jpg",
     "cities": [
       {
         "name": "Athens",
@@ -624,6 +626,8 @@
     "name": "Hungary",
     "code": "HU",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Ungaria este o tara bogata atat in ceea ce priveste obiectivele turistice naturale, cat si cele istorice, culturale si arhitecturale. In topul celor mai cunoscute si atractive obiective se afla baile termale si castelele de pe teritoriul tarii. ",
+    "image" : "https://www.icpdr.org/main/sites/default/files/styles/article_galleryfull/public/nodes/teaser_images/budapest_0.jpg?itok=u8IFUCRk",
     "cities": [
       {
         "name": "Budapest",
@@ -642,6 +646,8 @@
     "name": "Iceland",
     "code": "IS",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description" : "Islanda este \"copilul nazdravan\" al Europei, o tara in care vulcanii activi se imbina cu ghetarii si gheizerele fierbinti. Cascade repezi, plaje cu nisip negru, simpaticii pufini si Laguna Albastra completeaza lista atractiilor pe care nu trebuie sa le ratati daca vizitati Islanda. Capitala Reykjavik este un oras modern si ospitalier, adapostind peste o treime din populatia tarii si cele mai multe muzee, galerii de arta, teatre, restaurante, si pub-uri, orasul fiind vestit pentru efervescenta viata de noapte.",
+    "image": "https://storage0.dms.mpinteractiv.ro/media/1/1481/21335/18117871/1/reykjavik-iceland-travel.jpg",
     "cities": [
       {
         "name": "Reykjavik",
@@ -660,6 +666,8 @@
     "name": "India",
     "code": "IN",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "India este un taram vibrant care surprinde cel mai bine contrastul intre lumea traditionala si cea moderna. ",
+    "image": "https://m.hindustantimes.com/rf/image_size_444x250/HT/p2/2018/07/07/Pictures/_2be65cac-81ab-11e8-bd7f-aad8d1b78451.jpg",
     "cities": [
       {
         "name": "Mumbai",
@@ -689,6 +697,8 @@
     "name": "Indonesia",
     "code": "ID",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Indonezia este cea mai mare țară din Asia de Sud-Est și, cu peste 17 000 de insule, cel mai mare arhipelag din întreaga lume. Este un tărâm înzestrat cu plaje curate, vile exotice, insule cu ape cristaline, vulcani cvasi-activi, triburi vibrante, o faună sălbatică incredibilă și cu o bogăție culturală uluitoare.",
+    "image": "https://media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-08/AP_19224395652720.jpg?itok=ZE15O_aU",
     "cities": [
       {
         "name": "Bali",
@@ -718,6 +728,8 @@
     "name": "Italy",
     "code": "IT",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Italia este pe sufletul meu, cu tot ce inseamna ea. Cladiri, strazi, istorie, mancare, peisaje, oameni. Daca iti doresti sa descoperi peisaje care iti taie respiratia, obiective turistice unice in lume, locuri incarcate de istorie, terase cochete, strazi intortochiate si atmosfera calda, atunci, da, Italia este ceea ce cauti.",
+    "image": "https://www.gogga.net/wp-content/uploads/2018/04/positano-italy-travel-guide-770x515.jpg",
     "cities": [
       {
         "name": "Rome",
@@ -747,6 +759,8 @@
     "name": "Japan",
     "code": "JP",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Japonia, sau “Tara Soarelui Rasare” este una dintre cele mai educate si mai dezvoltate tari ale lumii. Aceasta este formata din 4 insule, iar legenda spune ca acestea au fost create de catre zei, ei infingand o sabie in ocean, impartindu-le la scoaterea sabiei.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg/1280px-Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg",
     "cities": [
       {
         "name": "Tokyo",
@@ -765,6 +779,8 @@
     "name": "Jordan",
     "code": "JO",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Un taram inzestrat cu sute de ani de istorie a lumii, Iordania este locul unde Iisus a fost botezat de catre Ioan Botezatorul, unde Alexandru cel Mare a infintat orasul Jerash si unde a fost ridicata Petra, una dintre cele 7 minuni ale lumii.",
+    "image": "https://www.eturbonews.com/wp-content/uploads/2017/05/0a1-18.jpg",
     "cities": [
       {
         "name": "Amman",
@@ -794,6 +810,8 @@
     "name": "Malta",
     "code": "MT",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Malta, insula situată în mijlocul Mării Mediterane, care a aparţinut Cavalerilor Ioaniţi aproape 300 de ani, reprezintă un amalgam de istorie, religie, tradiţii şi cosmopolitism.",
+    "image": "https://static.infoturism.ro/content/tari/poze_Malta_1.jpg",
     "cities": [
       {
         "name": "Valletta",
@@ -823,6 +841,8 @@
     "name": "Mexico",
     "code": "MX",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Mexic ofera o mare varietate de atractii turistice pentru toate gusturile. De la deserturile aride din nord, la lagunele cristaline din Peninsula Baja, vestigiile maya ascunse in jungla la Palenque, plajele celebre de la Acapulco, orasele coloniale incantatoare, metropole precum Ciudad de Mexico sau Guadalajara, sau Peninsula Yucatan, leaganul civilizatiei maya cu mixul sau unic de vestigii istorice, statiunile celebre Cancun sau Cozumel si hacienda coloniale.",
+    "image": "https://www.travelnewsdigest.in/wp-content/uploads/2018/12/Mex_Insert.jpg",
     "cities": [
       {
         "name": "Cancún",
@@ -852,6 +872,8 @@
     "name": "Norway",
     "code": "NO",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Vikingi si peisaje cu fiorduri – cam asta iti imaginezi atunci cand vine vorba de Norvegia. Dar aceasta superba tara are de oferit mult mai multe, de la verile cu nopti albe pana la pitorestile cascade, excelent conservatele biserici de lemn, potecile de drumetii prin zone de neuitat sau orasele cu aspect medieval.",
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2017%2F11%2Flofoten-islands-norway-aurora-borealis-northern-lights-NORWAYLIGHTS1017.jpg",
     "cities": [
       {
         "name": "Oslo",
@@ -881,6 +903,8 @@
     "name": "Peru",
     "code": "PE",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "https://www.planetware.com/photos-large/PER/peru-machu-picchu-1.jpg",
+    "image": "",
     "cities": [
       {
         "name": "Lima",
@@ -899,6 +923,8 @@
     "name": "Portugal",
     "code": "PT",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Portugalia are câte ceva pentru oricine. Fie că e vorba de o străduță îngustă de unde răsună fado, un parc din cartierul gotic, o linie de coastă plină de faruri, un oraș medieval, un castel, un muzeu, o galerie, un vin, o prăjitură – aici chiar dacă ai vrea nu ai cum să te plictisești.",
+    "image": "https://www.nationalgeographic.com/content/dam/travel/2019-digital/why-everyone-is-going-to-portugal/01_portugal.adapt.1900.1.jpg",
     "cities": [
       {
         "name": "Lisabona",
@@ -928,6 +954,8 @@
     "name": "Romania",
     "code": "RO",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "România este un amestec de culturi, peisaje și arome. Culorile vibrante ale costumelor tradiționale, pădurile luxuriante verzi, vechi de secole, zgomotul orașelor medievale cu străzi pietruite și viața sălbatică perfect conservată în Delta Dunării, iată numai câteva dintre minunile care dau farmec acestei țări.",
+    "image": "https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Romania-Transylvania-Peles-494393290-1440x823.jpg",
     "cities": [
       {
         "name": "Bucharest",
@@ -957,6 +985,8 @@
     "name": "Russian Federation",
     "code": "RU",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Cea mai mare ţară din lume, Rusia, vă poate oferi o multitudine de experienţe de călătorie, de la drumeţii în preajma munţilor înzăpeziţi până la plimbări de-a lungul ţărmului celui mai vechi lac de pe planetă. ",
+    "image": "https://api.time.com/wp-content/uploads/2020/05/Russia_coronavirus_record_spike.jpg?quality=85&crop=0px%2C63px%2C1024px%2C536px&resize=1200%2C628&strip",
     "cities": [
       {
         "name": "Moscow",
@@ -986,6 +1016,8 @@
     "name": "Singapore",
     "code": "SG",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Singapore este un oraş cosmopolit, în care arhitectura modernă se îmbină extrem de plăcut cu valorile tradiţionale, un oraş curat şi liniştit, un oraş care merită toţi turiştii pe care îi are.",
+    "image": "https://ttgasia.2017.ttgasia.com/wp-content/uploads/sites/2/2020/04/Singapore-merlion.jpg",
     "cities": [
       {
         "name": "Singapore",
@@ -1004,6 +1036,8 @@
     "name": "Slovenia",
     "code": "SI",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Situata in partea de est a muntilor Alpi din Europa Centrala, de-a lungul coastei de nord a Marii Adriatice, se afla Slovenia. Tara este marginita la nord de Austria, in partea de nord-est de Ungaria, la sud de Croatia, iar in sud-vest de Italia. Nu exista niciun dubiu ca orasele slovene sunt marturia influentei dominatiilor din trecut, care se regasesc in stilurile arhitecturale austriece si italiene, care abunda in zona.",
+    "image": "https://cdn.thecrazytourist.com/wp-content/uploads/2020/03/ccimage-shutterstock_1461366248.jpg",
     "cities": [
       {
         "name": "Ljubljana",
@@ -1033,6 +1067,8 @@
     "name": "Spain",
     "code": "ES",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Spania este o surpriza pentru cei care au in minte imaginea luptelor date pentru un loc pe una dintre plajele sale aglomerate sau a unui pahar de Sangria, savurat in timp ce asisti la o lupta de tauri sau la o reprezentatie de flamenco. De la monumentele antice lasate de romani si mauri, castelele medievale, asezarile in care predomina culoarea alba din Andalucía si pana la vibrantele orase Barcelona si Madrid, exista un amestec fantastic de atractii culturale in Spania.",
+    "image": "https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/barcelona.jpg?itok=oVJVAgfC",
     "cities": [
       {
         "name": "Barcelona",
@@ -1073,6 +1109,8 @@
     "name": "Thailand",
     "code": "TH",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "De la plaje rupte din paradis, pana la uimitoare obiective turistice, Thailanda este o asemenea unui teren de joaca pentru cei mai curiosi calatori, care pot gasi aici orice isi doresc – relaxare, distractie, culturalizare! ",
+    "image": "https://www.hotelmanagement-network.com/wp-content/uploads/sites/27/2020/04/shutterstock_616065782.jpg",
     "cities": [
       {
         "name": "Bangkok",
@@ -1102,6 +1140,8 @@
     "name": "Turkey",
     "code": "TR",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Turcia ofera o mare varietate de destinatii pentru turistii care vin aici. De la cupolele si minaretele care strapung cerul orasului Istanbul, pana la ruinele romane care impanzesc coasta de vest si pe cea de sud, de la plajele din Antalya si statiunile turistice de la Marea Mediterana, pana la muntii acoperiti de ceata din partea de est a Marii Negre. ",
+    "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2020/04/23/32135.jpg",
     "cities": [
       {
         "name": "Istanbul",
@@ -1142,6 +1182,8 @@
     "name": "Ukraine",
     "code": "UA",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Ucraina este puțin cunoscută în exteriorul țării, în ciuda faptului că este una dintre cele mai mari state din Europa. Asociată de-a lungul timpului cu vecinul său de proporții colosale, Rusia, Ucraina este o țară de o varietate întinsă și o diversitate culturală surprinzătoare. ",
+    "image": "https://static.ukrinform.com/photos/2018_08/thumb_files/630_360_1535277960-8567.jpg",
     "cities": [
       {
         "name": "Kiev",
@@ -1160,6 +1202,8 @@
     "name": "United Kingdom",
     "code": "GB",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Marea Britanie este una dintre destinatiile de vacanta preferate de cei care vor sa descopere locuri noi incarcate de istorie. Bine cunoscutele ploi si clima in general mai rece nu reprezinta obstacole pentru cei mai motivati.",
+    "image": "https://www.condorferries.co.uk/remote.axd/condorlivemedia.azureedge.net/media/11098/uk-travel.jpg?anchor=center&amp;mode=crop&amp;width=1920&amp;height=1080&amp;rnd=132229708480000000",
     "cities": [
       {
         "name": "London",
@@ -1222,6 +1266,8 @@
     "name": "United States",
     "code": "US",
     "flag": "https://github.com/samayo/country-json/blob/master/src/country-by-flag.json",
+    "description": "Nu exista, probabil, o alta tara care sa ofere o diversitate mai mare ca Statele Unite: natura inghetata oferita, printre altele, de Alaska si Parcul National Denali, Yellowstone – primul si cel mai mare parc national din lume, coasta Pacificului, plajele exotice, luxul montan din Aspen, Cascada Niagara, Marele Canion, distractia din Las Vegas si vibrantele orase New York, Los Angeles, San Francisco si Manhattan sunt doar o mica parte din frumusetile acestei tari.",
+    "image": "https://media.timeout.com/images/105632328/image.jpg",
     "cities": [
       {
         "name": "New York",

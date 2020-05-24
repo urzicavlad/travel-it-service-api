@@ -61,8 +61,9 @@ public class CountryServiceImpl implements CountryService {
 
     void prePopulateDatabase() {
         try {
-            countryRepository.saveAll(OBJECT_MAPPER.readValue(asString(resource),
-                    OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, Country.class)));
+            Iterable<Country> iterable = OBJECT_MAPPER.readValue(asString(resource),
+                    OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, Country.class));
+            countryRepository.saveAll(iterable);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }

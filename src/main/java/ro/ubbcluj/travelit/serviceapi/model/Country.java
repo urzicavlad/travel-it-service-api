@@ -20,7 +20,7 @@ public class Country {
     private String code;
     @Column(length = 15000)
     private String flag;
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<City> cities;
     @Column(length = 15000)
     private String description;

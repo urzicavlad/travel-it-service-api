@@ -37,7 +37,7 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public List<City> getByCountry(String country) {
-        return cityRepository.findAllByCountry(country);
+        return cityRepository.findAllByCountry_Name(country);
     }
 
 

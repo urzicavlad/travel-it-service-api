@@ -20,6 +20,10 @@ public class Country {
     private String code;
     @Column(length = 15000)
     private String flag;
+    @Column
+    private String description;
+    @Column
+    private String image;
     @OneToMany(cascade = CascadeType.ALL)
     private Set<City> cities;
 }

@@ -42,8 +42,8 @@ public class UserController {
 
     @RequestMapping(method = RequestMethod.HEAD, path = "/{username}")
     @CrossOrigin(origins = {"*"})
-    public ResponseEntity<String> usernameExists(@PathVariable String username) {
-        return userService.userExists(username)
+    public ResponseEntity<String> usernameExist(@PathVariable String username) {
+        return userService.userExist(username)
                 ? ResponseEntity.status(HttpStatus.OK).build()
                 : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 

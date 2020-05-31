@@ -98,7 +98,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Boolean userExists(String username) {
+    public Boolean userExist(String username) {
         return userRepository.findByUsername(username).isPresent();
     }
 }

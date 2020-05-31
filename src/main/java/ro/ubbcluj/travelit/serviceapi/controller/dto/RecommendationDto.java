@@ -8,4 +8,7 @@ import lombok.experimental.Accessors;
 public class RecommendationDto {
 
     private long id;
+    private String name;
+    private String address;
+    private String description;
 }

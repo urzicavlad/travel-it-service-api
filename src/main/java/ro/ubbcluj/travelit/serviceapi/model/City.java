@@ -9,6 +9,7 @@ import java.util.Set;
 @Data
 @Entity
 @Accessors(chain = true)
+@Table(name = "city")
 public class City {
 
     @Id
@@ -22,4 +23,5 @@ public class City {
     private String description;
     @OneToMany(cascade = CascadeType.ALL)
     private Set<Recommendation> recommendations;
+
 }

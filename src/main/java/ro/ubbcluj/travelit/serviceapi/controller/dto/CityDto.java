@@ -11,6 +11,8 @@ public class CityDto {
 
     private long id;
     private String name;
-    private long idCountry;
+    private String countryName;
+    private String description;
     private Set<RecommendationDto> recommendations;
+
 }

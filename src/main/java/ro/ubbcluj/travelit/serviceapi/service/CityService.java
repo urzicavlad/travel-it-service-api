@@ -14,6 +14,6 @@ public interface CityService {
 
     City getById(Long id);
 
-    List<City> getByCountry(String country);
+    List<City> getByCountryName(String country);
 
 }

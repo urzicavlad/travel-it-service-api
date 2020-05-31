@@ -8,7 +8,7 @@ import ro.ubbcluj.travelit.serviceapi.service.UserService;
 @Service
 public class LoginServiceImpl implements LoginService {
 
-    private UserService userService;
+    private final UserService userService;
 
     public LoginServiceImpl(UserService userService) {
         this.userService = userService;

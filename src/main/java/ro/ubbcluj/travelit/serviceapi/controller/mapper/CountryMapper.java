@@ -10,7 +10,9 @@ public class CountryMapper {
                 .setId(country.getId())
                 .setName(country.getName())
                 .setCode(country.getCode())
-                .setFlag(country.getFlag());
+                .setFlag(country.getFlag())
+                .setImage(country.getImage())
+                .setDescription(country.getDescription());
     }
 
     public static Country mapToEntity(final CountryDto countryDto) {
@@ -18,7 +20,9 @@ public class CountryMapper {
                 .setId(countryDto.getId())
                 .setName(countryDto.getName())
                 .setCode(countryDto.getCode())
-                .setFlag(countryDto.getFlag());
+                .setFlag(countryDto.getFlag())
+                .setImage(countryDto.getImage())
+                .setDescription(countryDto.getDescription());
     }
 
 }

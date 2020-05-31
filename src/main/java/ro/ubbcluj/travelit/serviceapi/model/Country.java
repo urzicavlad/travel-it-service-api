@@ -9,6 +9,7 @@ import java.util.Set;
 @Data
 @Entity
 @Accessors(chain = true)
+@Table(name = "country")
 public class Country {
 
     @Id
@@ -20,11 +21,13 @@ public class Country {
     private String code;
     @Column(length = 15000)
     private String flag;
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name= "country_id")
     private Set<City> cities;
     @Column(length = 15000)
     private String description;
     @Column(length = 15000)
     private String image;
+
 
 }

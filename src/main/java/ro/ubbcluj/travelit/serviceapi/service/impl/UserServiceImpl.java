@@ -10,13 +10,8 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import java.util.ArrayList;
 import java.util.List;
-import org.passay.CharacterRule;
-import org.passay.EnglishCharacterData;
-import org.passay.LengthRule;
-import org.passay.PasswordData;
-import org.passay.PasswordValidator;
-import org.passay.RuleResult;
-import org.passay.WhitespaceRule;
+import java.util.Random;
+import java.util.stream.Collectors;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -40,40 +35,70 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User save(User user) {
-        if (userRepository.findByUsername(user.getUsername()).isPresent())
-            throw new IllegalArgumentException("Username taken!");
+        return userRepository.save(verifyUser(user));
+    }
 
-        if (userRepository.findByEmail(user.getEmail()).isPresent())
+    private User verifyUser(User user) {
+        verifyUsername(user.getUsername());
+        verifyEmail(user.getEmail());
+        verifyPassword(user.getPassword());
+        return user;
+    }
+
+    private void verifyUsername(String username) {
+        if (userRepository.findByUsername(username).isPresent())
+            throw new IllegalArgumentException("Username taken!, suggested username: "+ suggestUsername(username));
+    }
+
+    private String suggestUsername(String username) {
+        return username.concat(String.valueOf(new Random().nextInt(20)));
+    }
+
+    private void verifyEmail(String email) {
+        if (userRepository.findByEmail(email).isPresent()) {
             throw new IllegalArgumentException("Email address already registered!");
+        }
 
         try {
-            InternetAddress email = new InternetAddress(user.getEmail());
-            email.validate();
+            new InternetAddress(email).validate();
         } catch (AddressException e) {
             throw new IllegalArgumentException("Invalid email address!");
         }
+    }
 
+    private void verifyPassword(String password) {
+        final PasswordValidator validator = new PasswordValidator(getPasswordRules());
+        final PasswordData passwordData = new PasswordData(password);
+        final RuleResult result = validator.validate(passwordData);
+
+        if (!result.isValid()) {
+            final String errorsOnPassword = result.getDetails().stream()
+                    .map(RuleResultDetail::getErrorCode)
+                    .collect(Collectors.toList())
+                    .toString();
+            throw new IllegalArgumentException("Password is not valid : " + errorsOnPassword);
+        }
+    }
+
+    private List<Rule> getPasswordRules() {
         List<Rule> rules = new ArrayList<>();
-        rules.add(new LengthRule(8, 20));
+        rules.add(new LengthRule(8, 100));
         rules.add(new WhitespaceRule());
         rules.add(new CharacterRule(EnglishCharacterData.UpperCase, 1));
         rules.add(new CharacterRule(EnglishCharacterData.LowerCase, 1));
         rules.add(new CharacterRule(EnglishCharacterData.Digit, 1));
         rules.add(new CharacterRule(EnglishCharacterData.Special, 1));
-
-        PasswordValidator validator = new PasswordValidator(rules);
-        PasswordData password = new PasswordData(user.getPassword());
-        RuleResult result = validator.validate(password);
-
-        if(!result.isValid())
-            throw new IllegalArgumentException("Password contain at least one digit, one upper and lower character, one special character and should contain between 8-20 characters. Please avoid tab and space!");
-
-        return userRepository.save(user);
+        return rules;
     }
 
     @Override
-    public User findByUsername(String username) {
+    public User getByUsername(String username) {
         return userRepository.findByUsername(username)
                 .orElseThrow(() -> new IllegalArgumentException("User not found!"));
+    }
+
+    @Override
+    public Boolean userExists(String username) {
+        return userRepository.findByUsername(username).isPresent();
     }
 }

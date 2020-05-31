@@ -16,7 +16,7 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public User login(String username, String password) {
-        User user = userService.findByUsername(username);
+        User user = userService.getByUsername(username);
         if (user.getPassword().equals(password)) {
             return user;
         }

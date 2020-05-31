@@ -2,6 +2,7 @@ package ro.ubbcluj.travelit.serviceapi.service;
 
 import ro.ubbcluj.travelit.serviceapi.model.User;
 
+import java.util.Arrays;
 import java.util.List;
 
 public interface UserService {
@@ -12,6 +13,8 @@ public interface UserService {
 
     User save(User user);
 
-    User findByUsername(String username);
+    User getByUsername(String username);
+
+    Boolean userExists(String username);
 
 }

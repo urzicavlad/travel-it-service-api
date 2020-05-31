@@ -26,7 +26,7 @@ public class CityController {
     }
 
     @GetMapping("/filter")
-    public List<CityDto> getByCountryName(@RequestParam String country){
+    public List<CityDto> getCitiesByCountryName(@RequestParam String country){
        return cityService.getByCountryName(country)
                .stream()
                .map(CityMapper::mapToDto)

@@ -11,7 +11,7 @@ public class CountryDto {
     private String name;
     private String code;
     private String flag;
-    private String image;
     private String description;
+    private String image;
 
 }

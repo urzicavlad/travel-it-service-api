@@ -19,5 +19,7 @@ public class Recommendation {
     private String address;
     @Column(length = 15000)
     private String description;
+    @ManyToOne(cascade = CascadeType.PERSIST)
+    private City city;
 
 }

@@ -1,14 +1,15 @@
 package ro.ubbcluj.travelit.serviceapi.controller;
 
 import org.springframework.web.bind.annotation.*;
+import ro.ubbcluj.travelit.serviceapi.controller.dto.CityDto;
 import ro.ubbcluj.travelit.serviceapi.controller.dto.RecommendationDto;
-import ro.ubbcluj.travelit.serviceapi.controller.dto.UserDto;
+import ro.ubbcluj.travelit.serviceapi.controller.mapper.CityMapper;
 import ro.ubbcluj.travelit.serviceapi.controller.mapper.RecommendationMapper;
-import ro.ubbcluj.travelit.serviceapi.controller.mapper.UserMapper;
+import ro.ubbcluj.travelit.serviceapi.model.Country;
+import ro.ubbcluj.travelit.serviceapi.model.Recommendation;
+import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
-import ro.ubbcluj.travelit.serviceapi.service.UserService;
 
-import javax.validation.Valid;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,14 +17,26 @@ import java.util.stream.Collectors;
 @RequestMapping("/recommendations")
 public class RecommendationController {
 
-    private RecommendationService recommendationService;
+    public final RecommendationService recService;
 
-    public RecommendationController(RecommendationService recommendationService) {
-        this.recommendationService = recommendationService;
+    public RecommendationController(RecommendationService recService) {
+        this.recService = recService;
     }
 
-    @PostMapping
-    public RecommendationDto add(@Valid @RequestBody RecommendationDto recommendationDto) {
-        return RecommendationMapper.mapToDto(recommendationService.save(RecommendationMapper.mapToEntity(recommendationDto)));
+    @GetMapping("/{id}")
+    public Recommendation getById(@PathVariable Long id) {
+        return recService.getById(id);
+    }
+
+    @GetMapping
+    public List<RecommendationDto> getAll() {
+        return recService.getAll()
+                .stream()
+                .map(RecommendationMapper::mapToDto)
+                .collect(Collectors.toList());
+    }
+    @DeleteMapping("/{id}")
+    public void deleteById (@PathVariable Long id) {
+        recService.deleteById(id);
     }
 }

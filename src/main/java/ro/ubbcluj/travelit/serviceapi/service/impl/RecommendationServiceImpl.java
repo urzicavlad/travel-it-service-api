@@ -6,7 +6,10 @@ import ro.ubbcluj.travelit.serviceapi.repository.RecommendationRepository;
 import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
+import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 @Service
     public class RecommendationServiceImpl implements RecommendationService {
@@ -17,6 +20,25 @@ import java.util.Set;
     public RecommendationServiceImpl(CityService cityService, RecommendationRepository recommendationRepository) {
         this.recommendationRepository = recommendationRepository;
         this.cityService = cityService;
+    }
+
+    @Override
+    public List<Recommendation> getAll() {
+        /*return new ArrayList<>(recommendationRepository.findAll());*/
+        List<Recommendation> recommendations = recommendationRepository.findAll();
+        return StreamSupport.stream(recommendations.spliterator(),false).collect(Collectors.toList());
+    }
+
+    @Override
+    public void deleteById(Long id) {
+        /*List<Recommendation> recommendations = recommendationRepository.findAll();
+        recommendations.removeIf(recommendation -> recommendation.getId().equals(id));*/
+        recommendationRepository.deleteById(id);
+    }
+
+    @Override
+    public Recommendation getById(Long id) {
+        return recommendationRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Recommendation not found!"));
     }
 
     @Override
@@ -37,6 +59,5 @@ import java.util.Set;
 
         return recommendationRepository.save(recommendation);
     }
-
 }
 

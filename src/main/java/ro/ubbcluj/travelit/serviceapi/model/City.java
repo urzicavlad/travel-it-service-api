@@ -1,12 +1,15 @@
 package ro.ubbcluj.travelit.serviceapi.model;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.experimental.Accessors;
 
 import javax.persistence.*;
 import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @Entity
 @Accessors(chain = true)
 @Table(name = "city")
@@ -21,7 +24,8 @@ public class City {
     private Country country;
     @Column(length = 15000)
     private String description;
-    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name ="city_id")
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Recommendation> recommendations;
 
 }

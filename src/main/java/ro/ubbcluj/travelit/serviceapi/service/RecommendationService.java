@@ -6,5 +6,7 @@ import java.util.Set;
 
 public interface RecommendationService {
 
+    Recommendation save(Recommendation recommendation);
+
     Set<Recommendation> getByRecommendationsByCityName(String cityName);
 }

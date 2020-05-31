@@ -2,21 +2,26 @@ package ro.ubbcluj.travelit.serviceapi.service.impl;
 
 import org.springframework.stereotype.Service;
 import ro.ubbcluj.travelit.serviceapi.model.Recommendation;
-import ro.ubbcluj.travelit.serviceapi.model.User;
 import ro.ubbcluj.travelit.serviceapi.repository.RecommendationRepository;
-import ro.ubbcluj.travelit.serviceapi.repository.UserRepository;
+import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
- import javax.mail.internet.AddressException;
- import javax.mail.internet.InternetAddress;
+import java.util.Set;
 
 @Service
     public class RecommendationServiceImpl implements RecommendationService {
 
+    private final CityService cityService;
     private final RecommendationRepository recommendationRepository;
 
-    public RecommendationServiceImpl(RecommendationRepository recommendationRepository) {
+    public RecommendationServiceImpl(CityService cityService, RecommendationRepository recommendationRepository) {
         this.recommendationRepository = recommendationRepository;
+        this.cityService = cityService;
+    }
+
+    @Override
+    public Set<Recommendation> getByRecommendationsByCityName(String cityName) {
+        return cityService.getByName(cityName).getRecommendations();
     }
 
     @Override
@@ -32,5 +37,6 @@ import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
         return recommendationRepository.save(recommendation);
     }
+
 }
 

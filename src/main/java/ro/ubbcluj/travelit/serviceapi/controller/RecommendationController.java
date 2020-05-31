@@ -1,42 +1,54 @@
 package ro.ubbcluj.travelit.serviceapi.controller;
 
 import org.springframework.web.bind.annotation.*;
-import ro.ubbcluj.travelit.serviceapi.controller.dto.CityDto;
 import ro.ubbcluj.travelit.serviceapi.controller.dto.RecommendationDto;
-import ro.ubbcluj.travelit.serviceapi.controller.mapper.CityMapper;
 import ro.ubbcluj.travelit.serviceapi.controller.mapper.RecommendationMapper;
-import ro.ubbcluj.travelit.serviceapi.model.Country;
 import ro.ubbcluj.travelit.serviceapi.model.Recommendation;
-import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/recommendations")
+@CrossOrigin(origins = {"*"})
 public class RecommendationController {
 
-    public final RecommendationService recService;
+    private RecommendationService recommendationService;
 
-    public RecommendationController(RecommendationService recService) {
-        this.recService = recService;
+    public RecommendationController(RecommendationService recommendationService) {
+        this.recommendationService = recommendationService;
     }
 
     @GetMapping("/{id}")
     public Recommendation getById(@PathVariable Long id) {
-        return recService.getById(id);
+        return recommendationService.getById(id);
     }
 
-    @GetMapping
-    public List<RecommendationDto> getAll() {
-        return recService.getAll()
+    @PostMapping
+    public RecommendationDto add(@Valid @RequestBody RecommendationDto recommendationDto) {
+        return RecommendationMapper.mapToDto(recommendationService.save(RecommendationMapper.mapToEntity(recommendationDto)));
+    }
+
+    @GetMapping("/filter")
+    public List<RecommendationDto> getByRecommendationsByCity(@RequestParam String city) {
+        return recommendationService.getByRecommendationsByCityName(city)
                 .stream()
                 .map(RecommendationMapper::mapToDto)
                 .collect(Collectors.toList());
     }
+
+    @GetMapping
+    public List<RecommendationDto> getAll() {
+        return recommendationService.getAll()
+                .stream()
+                .map(RecommendationMapper::mapToDto)
+                .collect(Collectors.toList());
+    }
+
     @DeleteMapping("/{id}")
-    public void deleteById (@PathVariable Long id) {
-        recService.deleteById(id);
+    public void deleteById(@PathVariable Long id) {
+        recommendationService.deleteById(id);
     }
 }

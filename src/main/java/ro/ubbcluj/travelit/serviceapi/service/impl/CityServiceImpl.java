@@ -28,6 +28,11 @@ public class CityServiceImpl implements CityService {
     }
 
     @Override
+    public City getByName(String cityName) {
+        return cityRepository.findByName(cityName).orElseThrow(()-> new IllegalArgumentException("City not found!"));
+    }
+
+    @Override
     public List<City> getByCountryName(String country) {
         return cityRepository.findAllByCountry_Name(country);
     }

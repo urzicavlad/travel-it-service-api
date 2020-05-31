@@ -3,21 +3,24 @@ package ro.ubbcluj.travelit.serviceapi.service.impl;
 import org.springframework.stereotype.Service;
 import ro.ubbcluj.travelit.serviceapi.model.Recommendation;
 import ro.ubbcluj.travelit.serviceapi.repository.RecommendationRepository;
+import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 @Service
-public class RecommendationServiceImpl implements RecommendationService {
+    public class RecommendationServiceImpl implements RecommendationService {
 
+    private final CityService cityService;
     private final RecommendationRepository recommendationRepository;
 
-    public RecommendationServiceImpl(RecommendationRepository recommendationRepository) {
+    public RecommendationServiceImpl(CityService cityService, RecommendationRepository recommendationRepository) {
         this.recommendationRepository = recommendationRepository;
+        this.cityService = cityService;
     }
-
 
     @Override
     public List<Recommendation> getAll() {
@@ -37,10 +40,10 @@ public class RecommendationServiceImpl implements RecommendationService {
     public Recommendation getById(Long id) {
         return recommendationRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Recommendation not found!"));
     }
-    private final RecommendationRepository recommendationRepository;
 
-    public RecommendationServiceImpl(RecommendationRepository recommendationRepository) {
-        this.recommendationRepository = recommendationRepository;
+    @Override
+    public Set<Recommendation> getByRecommendationsByCityName(String cityName) {
+        return cityService.getByName(cityName).getRecommendations();
     }
 
     @Override
@@ -57,3 +60,4 @@ public class RecommendationServiceImpl implements RecommendationService {
         return recommendationRepository.save(recommendation);
     }
 }
+

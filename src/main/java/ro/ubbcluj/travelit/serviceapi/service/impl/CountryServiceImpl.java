@@ -58,6 +58,11 @@ public class CountryServiceImpl implements CountryService {
         return countryRepository.findAll(pageable);
     }
 
+    @Override
+    public Country getByName(String name) {
+        return countryRepository.findCountryByName(name)
+                .orElseThrow(() -> new IllegalArgumentException("Country not found!"));
+    }
 
     void prePopulateDatabase() {
         try {

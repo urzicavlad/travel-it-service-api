@@ -16,4 +16,5 @@ public interface CountryService {
 
     Page<Country> getPaginated(Pageable pageable);
 
+    Country getByName(String name);
 }

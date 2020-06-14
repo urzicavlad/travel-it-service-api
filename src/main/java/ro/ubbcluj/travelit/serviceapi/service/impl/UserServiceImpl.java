@@ -1,6 +1,7 @@
 package ro.ubbcluj.travelit.serviceapi.service.impl;
 
 import org.passay.*;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ro.ubbcluj.travelit.serviceapi.model.User;
 import ro.ubbcluj.travelit.serviceapi.repository.UserRepository;
@@ -18,8 +19,11 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
 
-    public UserServiceImpl(UserRepository userRepository) {
+    private final PasswordEncoder passwordEncoder;
+
+    public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
@@ -35,7 +39,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User save(User user) {
-        return userRepository.save(verifyUser(user));
+        return userRepository.save(encodePassword(verifyUser(user)));
+    }
+
+    private User encodePassword(User verifiedUser) {
+        final String encodedPassword = passwordEncoder.encode(verifiedUser.getPassword());
+        return verifiedUser.setPassword(encodedPassword);
     }
 
     private User verifyUser(User user) {
@@ -47,7 +56,7 @@ public class UserServiceImpl implements UserService {
 
     private void verifyUsername(String username) {
         if (userRepository.findByUsername(username).isPresent())
-            throw new IllegalArgumentException("Username taken!, suggested username: "+ suggestUsername(username));
+            throw new IllegalArgumentException("Username taken!, suggested username: " + suggestUsername(username));
     }
 
     private String suggestUsername(String username) {

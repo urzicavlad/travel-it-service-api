@@ -46,4 +46,8 @@ public class CountryController {
                 .map(CountryMapper::mapToDto);
     }
 
+    @GetMapping("/filter")
+    public CountryDto getByName(@RequestParam String name) {
+        return CountryMapper.mapToDto(countryService.getByName(name));
+    }
 }

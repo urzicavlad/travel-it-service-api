@@ -23,8 +23,8 @@ public class CountryController {
     }
 
     @GetMapping("/{id}")
-    public Country getById(@PathVariable Long id) {
-        return countryService.getById(id);
+    public CountryDto getById(@PathVariable Long id) {
+        return CountryMapper.mapToDto(countryService.getById(id));
     }
 
     @GetMapping("/populateDatabase")

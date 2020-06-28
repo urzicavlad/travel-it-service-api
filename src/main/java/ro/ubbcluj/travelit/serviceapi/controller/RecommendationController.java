@@ -3,7 +3,9 @@ package ro.ubbcluj.travelit.serviceapi.controller;
 import org.springframework.web.bind.annotation.*;
 import ro.ubbcluj.travelit.serviceapi.controller.dto.RecommendationDto;
 import ro.ubbcluj.travelit.serviceapi.controller.mapper.RecommendationMapper;
+import ro.ubbcluj.travelit.serviceapi.model.City;
 import ro.ubbcluj.travelit.serviceapi.model.Recommendation;
+import ro.ubbcluj.travelit.serviceapi.service.CityService;
 import ro.ubbcluj.travelit.serviceapi.service.RecommendationService;
 
 import javax.validation.Valid;
@@ -16,9 +18,11 @@ import java.util.stream.Collectors;
 public class RecommendationController {
 
     private RecommendationService recommendationService;
+    private final CityService cityService;
 
-    public RecommendationController(RecommendationService recommendationService) {
+    public RecommendationController(RecommendationService recommendationService, CityService cityService) {
         this.recommendationService = recommendationService;
+        this.cityService = cityService;
     }
 
     @GetMapping("/{id}")
@@ -28,7 +32,10 @@ public class RecommendationController {
 
     @PostMapping
     public RecommendationDto add(@Valid @RequestBody RecommendationDto recommendationDto) {
-        return RecommendationMapper.mapToDto(recommendationService.save(RecommendationMapper.mapToEntity(recommendationDto)));
+        Recommendation recommendation = RecommendationMapper.mapToEntity(recommendationDto);
+        City city = cityService.getByName(recommendationDto.getCityName());
+        recommendation.setCity(city);
+        return RecommendationMapper.mapToDto(recommendationService.save(recommendation));
     }
 
     @GetMapping("/filter")

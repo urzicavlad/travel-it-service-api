@@ -11,4 +11,5 @@ public class RecommendationDto {
     private String name;
     private String address;
     private String description;
+    private String cityName;
 }

@@ -30,4 +30,5 @@ public class User {
     private String originCountry;
     @ManyToMany(cascade = CascadeType.ALL)
     private Set<Country> favouriteDestinations;
+    private String role;
 }

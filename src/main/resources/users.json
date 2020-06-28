@@ -1,0 +1,12 @@
+[
+  {
+    "avatar": "admin_avatar",
+    "email": "admin@email.com",
+    "firstName": "admin_first_name",
+    "lastName": "admin_last_name",
+    "originCountry": "admin_origin_country",
+    "password": "$2a$10$iSHFBzW/WRGwvCL0kKL.KO34WiqTHzHr2gkcDTfBYvqR2cJy8iUsu",
+    "role": "ADMIN",
+    "username": "admin"
+  }
+]

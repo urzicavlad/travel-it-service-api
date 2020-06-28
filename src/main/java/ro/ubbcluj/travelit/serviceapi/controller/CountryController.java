@@ -50,4 +50,13 @@ public class CountryController {
     public CountryDto getByName(@RequestParam String name) {
         return CountryMapper.mapToDto(countryService.getByName(name));
     }
+
+    @PostMapping
+    public CountryDto add(@RequestBody CountryDto countryDto) {
+        Country country = CountryMapper.mapToEntity(countryDto);
+        Country savedCountry = countryService.save(country);
+        return CountryMapper.mapToDto(savedCountry);
+
+    }
 }
+

@@ -2,6 +2,7 @@ package ro.ubbcluj.travelit.serviceapi.service.impl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.type.CollectionType;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.data.domain.Page;
@@ -9,7 +10,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FileCopyUtils;
 import ro.ubbcluj.travelit.serviceapi.model.Country;
+import ro.ubbcluj.travelit.serviceapi.model.User;
 import ro.ubbcluj.travelit.serviceapi.repository.CountryRepository;
+import ro.ubbcluj.travelit.serviceapi.repository.UserRepository;
 import ro.ubbcluj.travelit.serviceapi.service.CountryService;
 
 import java.io.IOException;
@@ -27,12 +30,16 @@ public class CountryServiceImpl implements CountryService {
 
     public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     private final CountryRepository countryRepository;
+    private final UserRepository userRepository;
 
     @Value("classpath:data.json")
-    private Resource resource;
+    private Resource data;
+    @Value("classpath:users.json")
+    private Resource users;
 
-    public CountryServiceImpl(CountryRepository countryRepository) {
+    public CountryServiceImpl(CountryRepository countryRepository, UserRepository userRepository) {
         this.countryRepository = countryRepository;
+        this.userRepository = userRepository;
     }
 
     @Override
@@ -66,8 +73,10 @@ public class CountryServiceImpl implements CountryService {
 
     void prePopulateDatabase() {
         try {
-            countryRepository.saveAll(OBJECT_MAPPER.readValue(asString(resource),
-                    OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, Country.class)));
+            CollectionType listOfCountry = OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, Country.class);
+            CollectionType listOfUsers = OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, User.class);
+            countryRepository.saveAll(OBJECT_MAPPER.readValue(asString(data), listOfCountry));
+            userRepository.saveAll(OBJECT_MAPPER.readValue(asString(users), listOfUsers));
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -79,5 +88,10 @@ public class CountryServiceImpl implements CountryService {
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
+    }
+
+    @Override
+    public Country save(Country country) {
+        return countryRepository.save(country);
     }
 }

@@ -15,6 +15,7 @@ public class UserMapper {
                 .setPassword(user.getPassword())
                 .setAvatar(user.getAvatar())
                 .setOriginCountry(user.getOriginCountry())
+                .setRole(user.getRole())
                 .setFavouriteDestinations(user.getFavouriteDestinations());
     }
 
@@ -28,6 +29,7 @@ public class UserMapper {
                 .setPassword(userDto.getPassword())
                 .setAvatar(userDto.getAvatar())
                 .setOriginCountry(userDto.getOriginCountry())
+                .setRole("USER")
                 .setFavouriteDestinations(userDto.getFavouriteDestinations());
     }
 }

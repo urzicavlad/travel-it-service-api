@@ -26,4 +26,6 @@ public class UserDto {
     private String avatar;
     private String originCountry;
     private Set<Country> favouriteDestinations;
+    private String role;
+
 }

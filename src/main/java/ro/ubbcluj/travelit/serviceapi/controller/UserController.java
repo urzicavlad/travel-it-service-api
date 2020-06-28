@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @CrossOrigin(origins = {"*"})
 public class UserController {
 
-    private UserService userService;
+    private final UserService userService;
 
     public UserController(UserService userService) {
         this.userService = userService;
@@ -46,7 +46,6 @@ public class UserController {
         return userService.userExist(username)
                 ? ResponseEntity.status(HttpStatus.OK).build()
                 : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-
     }
 
 }

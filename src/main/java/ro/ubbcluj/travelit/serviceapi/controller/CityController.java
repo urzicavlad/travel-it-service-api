@@ -4,7 +4,9 @@ import org.springframework.web.bind.annotation.*;
 import ro.ubbcluj.travelit.serviceapi.controller.dto.CityDto;
 import ro.ubbcluj.travelit.serviceapi.controller.mapper.CityMapper;
 import ro.ubbcluj.travelit.serviceapi.model.City;
+import ro.ubbcluj.travelit.serviceapi.model.Country;
 import ro.ubbcluj.travelit.serviceapi.service.CityService;
+import ro.ubbcluj.travelit.serviceapi.service.CountryService;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,9 +17,11 @@ import java.util.stream.Collectors;
 public class CityController {
 
     public final CityService cityService;
+    public final CountryService countryService;
 
-    public CityController(CityService cityService) {
+    public CityController(CityService cityService, CountryService countryService) {
         this.cityService = cityService;
+        this.countryService = countryService;
     }
 
     @GetMapping("/{id}")
@@ -26,11 +30,11 @@ public class CityController {
     }
 
     @GetMapping("/filter")
-    public List<CityDto> getCitiesByCountryName(@RequestParam String country){
-       return cityService.getByCountryName(country)
-               .stream()
-               .map(CityMapper::mapToDto)
-               .collect(Collectors.toList());
+    public List<CityDto> getCitiesByCountryName(@RequestParam String country) {
+        return cityService.getByCountryName(country)
+                .stream()
+                .map(CityMapper::mapToDto)
+                .collect(Collectors.toList());
     }
 
     @GetMapping
@@ -39,6 +43,15 @@ public class CityController {
                 .stream()
                 .map(CityMapper::mapToDto)
                 .collect(Collectors.toList());
+    }
+
+    @PostMapping
+    public CityDto save(@RequestBody CityDto cityDto) {
+        City city = CityMapper.mapToEntity(cityDto);
+        Country country = countryService.getByName(cityDto.getCountryName());
+        city.setCountry(country);
+        City savedCity = cityService.save(city);
+        return CityMapper.mapToDto(savedCity);
     }
 
 

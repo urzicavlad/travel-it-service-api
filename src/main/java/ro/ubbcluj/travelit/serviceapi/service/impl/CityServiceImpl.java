@@ -37,5 +37,8 @@ public class CityServiceImpl implements CityService {
         return cityRepository.findAllByCountry_Name(country);
     }
 
-
+    @Override
+    public City save(City city) {
+        return cityRepository.save(city);
+    }
 }

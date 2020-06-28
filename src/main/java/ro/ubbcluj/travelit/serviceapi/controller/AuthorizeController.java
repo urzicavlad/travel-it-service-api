@@ -13,7 +13,7 @@ import javax.validation.Valid;
 @CrossOrigin(origins = {"*"})
 public class AuthorizeController {
 
-    private LoginService loginService;
+    private final LoginService loginService;
 
     public AuthorizeController(LoginService loginService) {
         this.loginService = loginService;

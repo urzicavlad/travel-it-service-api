@@ -8,5 +8,15 @@
     "password": "$2a$10$iSHFBzW/WRGwvCL0kKL.KO34WiqTHzHr2gkcDTfBYvqR2cJy8iUsu",
     "role": "ADMIN",
     "username": "admin"
+  },
+  {
+    "avatar": "user_avatar",
+    "email": "user@email.com",
+    "firstName": "user_first_name",
+    "lastName": "user_last_name",
+    "originCountry": "user_origin_country",
+    "password": "$2a$10$iSHFBzW/WRGwvCL0kKL.KO34WiqTHzHr2gkcDTfBYvqR2cJy8iUsu",
+    "role": "USER",
+    "username": "user"
   }
 ]

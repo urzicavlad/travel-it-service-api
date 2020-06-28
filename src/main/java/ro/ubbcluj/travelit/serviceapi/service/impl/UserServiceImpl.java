@@ -9,8 +9,10 @@ import ro.ubbcluj.travelit.serviceapi.service.UserService;
 
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 import java.util.stream.Collectors;
 
@@ -40,6 +42,23 @@ public class UserServiceImpl implements UserService {
     @Override
     public User save(User user) {
         return userRepository.save(encodePassword(verifyUser(user)));
+    }
+
+    @Override
+    @Transactional
+    public User changeRole(String userId , String role) {
+        Optional<User> byUsername = userRepository.findById(Long.valueOf(userId));
+        if (byUsername.isPresent()){
+            int i = userRepository.updateRole(Long.valueOf(userId), role);
+            if(i < 1){
+                throw new RuntimeException("Can not update user!");
+            }
+        }else {
+            throw new RuntimeException("User not Found!");
+        }
+        User user = byUsername.get();
+        user.setRole(role);
+        return user;
     }
 
     private User encodePassword(User verifiedUser) {

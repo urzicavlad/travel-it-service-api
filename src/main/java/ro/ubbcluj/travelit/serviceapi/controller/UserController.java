@@ -27,6 +27,11 @@ public class UserController {
         return UserMapper.mapToDto(userService.save(UserMapper.mapToEntity(userDto)));
     }
 
+    @PutMapping("/{userId}")
+    public UserDto put(@PathVariable String userId, @RequestBody String role) {
+        return UserMapper.mapToDto(userService.changeRole(userId, role));
+    }
+
     @GetMapping
     public List<UserDto> getAll() {
         return userService.getAll()

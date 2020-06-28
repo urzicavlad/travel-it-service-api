@@ -13,6 +13,8 @@ public interface UserService {
 
     User save(User user);
 
+    User changeRole(String username, String role);
+
     User getByUsername(String username);
 
     Boolean userExist(String username);
